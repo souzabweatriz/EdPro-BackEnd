@@ -1,9 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const upload = require("../config/upload.js");
+const apiKeyMiddleware = require("../config/apiKey");
 
 const courseController = require("../controllers/courseController");
 
+router.use(apiKeyMiddleware);
 router.get("/courses", courseController.getAllCourses);
 router.get("/courses/:id", courseController.getCourseById);
 router.post("/courses", upload.single("photo"), courseController.createCourse);
