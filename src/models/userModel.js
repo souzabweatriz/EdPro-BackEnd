@@ -12,18 +12,18 @@ const getUserById = async (id) => {
     return result.rows[0];
 };
 
-const createUser = async (full_name, username, email, phone, password, type) => {
+const createUser = async (full_name, username, email, phone, password, photo) => {
     const result = await pool.query(
-        "INSERT INTO users (full_name, username, email, phone, password, type) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *",
-        [full_name, username, email, phone, password, type]
+        "INSERT INTO users (full_name, username, email, phone, password, photo) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *",
+        [full_name, username, email, phone, password, photo]
     );
     return result.rows[0];
 };
 
-const updateUser = async (id, full_name, username, email, phone, password, type) => {
+const updateUser = async (id, full_name, username, email, phone, password, photo) => {
     const result = await pool.query(
-        "UPDATE users SET full_name = $1, username = $2, email = $3, phone = $4, password = $5, type = $6 WHERE id = $7 RETURNING *",
-        [full_name, username, email, phone, password, type, id]
+        "UPDATE users SET full_name = $1, username = $2, email = $3, phone = $4, password = $5, photo = $6 WHERE id = $7 RETURNING *",
+        [full_name, username, email, phone, password, photo, id]
     );
     return result.rows[0];
 };

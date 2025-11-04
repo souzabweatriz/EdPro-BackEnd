@@ -23,7 +23,8 @@ const getCourseById = async (req, res) => {
 
 const createCourse = async (req, res) => {
     try {
-        const { owner_id, photo, title, description, category } = req.body;
+        const { owner_id, title, description, category } = req.body;
+        const photo = req.file ? req.file.filename : null;
         const newCourse = await courseModel.createCourse(owner_id, photo, title, description, category);
         res.status(201).json(newCourse);
     } catch (error) {

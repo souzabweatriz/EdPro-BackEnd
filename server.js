@@ -5,11 +5,13 @@ const courseRoutes = require("./src/routes/courseRoutes");
 const enrollmentRoutes = require("./src/routes/enrollmentRoutes");
 const lessonRoutes = require("./src/routes/lessonRoutes");
 const userRoutes = require("./src/routes/userRoutes");
+const path = require("path");
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use("/api", courseRoutes);
 app.use("/api", enrollmentRoutes);
 app.use("/api", lessonRoutes);
