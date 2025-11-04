@@ -9,8 +9,8 @@ CREATE TABLE users (
     email VARCHAR(255) UNIQUE NOT NULL,
     phone VARCHAR(20), NOT NULL,
     password VARCHAR(12) NOT NULL,
-    type VARCHAR(20) NOT NULL CHECK (type IN ('student', 'instructor', 'admin'))
-);              
+    photo TEXT NOT NULL
+    );              
 
 CREATE TABLE courses (
     id SERIAL PRIMARY KEY,
@@ -34,8 +34,8 @@ CREATE TABLE lessons (
 
 CREATE TABLE enrollments (
     id SERIAL PRIMARY KEY,
-    student_id INT NOT NULL,
+    user_id INT NOT NULL,
     course_id INT NOT NULL,
-    CONSTRAINT fk_enrollments_student FOREIGN KEY (student_id) REFERENCES users(id) ON DELETE CASCADE,
+    CONSTRAINT fk_enrollments_student FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
     CONSTRAINT fk_enrollments_course FOREIGN KEY (course_id) REFERENCES courses(id) ON DELETE CASCADE
 );
