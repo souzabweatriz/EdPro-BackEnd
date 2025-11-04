@@ -4,16 +4,18 @@ CREATE DATABASE edpro;
 
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
-    username VARCHAR(50) UNIQUE NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
-    password VARCHAR(255) NOT NULL,
+    full_name VARCHAR(255) NOT NULL,
+    username VARCHAR(100) UNIQUE NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    phone VARCHAR(20), NOT NULL,
+    password VARCHAR(12) NOT NULL,
     type VARCHAR(20) NOT NULL CHECK (type IN ('student', 'instructor', 'admin'))
-);
+);              
 
 CREATE TABLE courses (
     id SERIAL PRIMARY KEY,
     owner_id INT NOT NULL,
-    phone VARCHAR(15),
+    photo TEXT NOT NULL,
     title VARCHAR(100) NOT NULL,
     description TEXT,
     category TEXT,
