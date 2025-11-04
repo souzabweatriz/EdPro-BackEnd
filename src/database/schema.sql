@@ -4,12 +4,12 @@ CREATE DATABASE edpro;
 
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
+    photo TEXT NOT NULL
     full_name VARCHAR(255) NOT NULL,
     username VARCHAR(100) UNIQUE NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
     phone VARCHAR(20), NOT NULL,
     password VARCHAR(12) NOT NULL,
-    photo TEXT NOT NULL
     );              
 
 CREATE TABLE courses (
