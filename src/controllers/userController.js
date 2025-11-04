@@ -23,8 +23,9 @@ const getUserById = async (req, res) => {
 
 const createUser = async (req, res) => {
     try {
-        const { full_name, username, email, phone, password, type } = req.body;
-        const newUser = await userModel.createUser(full_name, username, email, phone, password, type);
+        const { full_name, username, email, phone, password } = req.body;
+        const photo = req.file ? req.file.filename : null;
+        const newUser = await userModel.createUser(full_name, username, email, phone, password, photo);
         res.status(201).json(newUser);
     } catch (error) {
         res.status(500).json({ message: "Erro ao criar usuário." });
@@ -33,8 +34,8 @@ const createUser = async (req, res) => {
 
 const updateUser = async (req, res) => {
     try {
-        const { full_name, username, email, phone, password, type } = req.body;
-        const updatedUser = await userModel.updateUser(req.params.id, full_name, username, email, phone, password, type);
+        const { full_name, username, email, phone, password, photo } = req.body;
+        const updatedUser = await userModel.updateUser(req.params.id, full_name, username, email, phone, password, photo);
         if (!updatedUser) {
             return res.status(404).json({ message: "Usuário não encontrado." });
         }
