@@ -40,3 +40,13 @@ CREATE TABLE enrollments (
   CONSTRAINT fk_enrollments_student FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
   CONSTRAINT fk_enrollments_course FOREIGN KEY (course_id) REFERENCES courses(id) ON DELETE CASCADE
 );
+
+CREATE TABLE progress (
+  id SERIAL PRIMARY KEY,
+  enrollment_id INT NOT NULL,
+  lesson_id INT NOT NULL,
+  status VARCHAR(50) DEFAULT 'incomplete',
+  completed_at TIMESTAMP,
+  CONSTRAINT fk_progress_enrollment FOREIGN KEY (enrollment_id) REFERENCES enrollments(id) ON DELETE CASCADE,
+  CONSTRAINT fk_progress_lesson FOREIGN KEY (lesson_id) REFERENCES lessons(id) ON DELETE CASCADE
+);
