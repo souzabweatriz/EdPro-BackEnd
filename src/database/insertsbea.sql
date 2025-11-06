@@ -88,3 +88,13 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (5, 'Digital Presence', 'Building Your Online Reputation', 'Understand how to present your personal brand consistently across digital platforms while maintaining professionalism and authenticity. Activity: Identify which online actions strengthen or weaken your professional image.', 'digital.mp4'),
 (5, 'Overcoming Insecurities', 'Transforming Fear into Strength', 'Recognize limiting beliefs, understand their origin, and transform them into empowering perspectives that fuel personal confidence. Activity: Match each insecurity with a positive affirmation that redefines it.', 'insecurities.mp4'),
 (5, 'Personal Development Plan', 'Becoming Your Best Version', 'Create a clear action plan to strengthen your confidence and build your personal brand over time. Activity: Write one concrete goal and an action you will take to become “You 2.0.”', 'development.mp4');
+
+INSERT INTO enrollments (user_id, course_id) VALUES
+(8, 1),  
+(9, 2),  
+(10, 3), 
+(11, 1), 
+(12, 3),
+(8, 2), 
+(9, 1), 
+(11, 3);
