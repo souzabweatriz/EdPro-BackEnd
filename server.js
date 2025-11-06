@@ -5,6 +5,7 @@ const courseRoutes = require("./src/routes/courseRoutes");
 const enrollmentRoutes = require("./src/routes/enrollmentRoutes");
 const lessonRoutes = require("./src/routes/lessonRoutes");
 const progressRoutes = require("./src/routes/progressRoutes");
+const reportRoutes = require("./src/routes/reportRoutes");
 const userRoutes = require("./src/routes/userRoutes");
 const path = require("path");
 
@@ -13,6 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+app.use("/api", reportRoutes);
 app.use("/api", courseRoutes);
 app.use("/api", enrollmentRoutes);
 app.use("/api", lessonRoutes);
