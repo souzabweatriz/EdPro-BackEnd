@@ -6,6 +6,9 @@ const apiKeyMiddleware = require("../config/apiKey");
 const userController = require("../controllers/userController");
 
 router.use(apiKeyMiddleware);
+router.post('/signup', userController.signUp);
+router.post('/login', userController.login);
+router.get('/me', userController.getMe);
 router.get("/users", userController.getAllUsers);
 router.get("/users/:id", userController.getUserById);
 router.post("/users", upload.single("photo"), userController.createUser);

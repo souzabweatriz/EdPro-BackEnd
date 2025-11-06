@@ -12,10 +12,25 @@ const getUserById = async (id) => {
     return result.rows[0];
 };
 
+const getUserByEmail = async (email) => {
+    const result = await pool.query(
+        `SELECT * FROM users WHERE email = $1`, [email]
+    );
+    return result.rows[0];
+};
+
 const createUser = async (full_name, username, email, phone, password, photo) => {
     const result = await pool.query(
         "INSERT INTO users (full_name, username, email, phone, password, photo) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *",
         [full_name, username, email, phone, password, photo]
+    );
+    return result.rows[0];
+};
+
+const createAuthUser = async (full_name, email, password, role = 'aluno') => {
+    const result = await pool.query(
+        "INSERT INTO users (full_name, email, password, role) VALUES ($1, $2, $3, $4) RETURNING *",
+        [full_name, email, password, role]
     );
     return result.rows[0];
 };
@@ -36,4 +51,4 @@ const deleteUser = async (id) => {
     return { message: "Usuário deletado com sucesso." };
 };
 
-module.exports = { getUsers, getUserById, createUser, updateUser, deleteUser };
+module.exports = { getUsers, getUserById, getUserByEmail, createUser, createAuthUser, updateUser, deleteUser };
