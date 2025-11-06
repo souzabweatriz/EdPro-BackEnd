@@ -98,3 +98,6 @@ INSERT INTO enrollments (user_id, course_id) VALUES
 (8, 2), 
 (9, 1), 
 (11, 3);
+
+INSERT INTO progress (enrollment_id, lesson_id, status, completed_at) VALUES
+(8, 1, 'incomplete', NULL);
