@@ -4,6 +4,7 @@ const cors = require("cors");
 const courseRoutes = require("./src/routes/courseRoutes");
 const enrollmentRoutes = require("./src/routes/enrollmentRoutes");
 const lessonRoutes = require("./src/routes/lessonRoutes");
+const progressRoutes = require("./src/routes/progressRoutes");
 const userRoutes = require("./src/routes/userRoutes");
 const path = require("path");
 
@@ -15,6 +16,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use("/api", courseRoutes);
 app.use("/api", enrollmentRoutes);
 app.use("/api", lessonRoutes);
+app.use("/api", progressRoutes);
 app.use("/api", userRoutes);
 
 const PORT = process.env.PORT || 5000;
