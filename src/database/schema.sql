@@ -46,7 +46,7 @@ CREATE TABLE progress (
   enrollment_id INT NOT NULL,
   lesson_id INT NOT NULL,
   status VARCHAR(50) DEFAULT 'incomplete',
-  completed_at TIMESTAMP,
+  completed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   CONSTRAINT fk_progress_enrollment FOREIGN KEY (enrollment_id) REFERENCES enrollments(id) ON DELETE CASCADE,
   CONSTRAINT fk_progress_lesson FOREIGN KEY (lesson_id) REFERENCES lessons(id) ON DELETE CASCADE
 );
