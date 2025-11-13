@@ -12,18 +12,18 @@ const getEnrollmentById = async (id) => {
     return result.rows[0];
 };
 
-const createEnrollment = async (student_id, course_id) => {
+const createEnrollment = async (user_id, course_id) => {
     const result = await pool.query(
-        "INSERT INTO enrollments (student_id, course_id) VALUES ($1, $2) RETURNING *",
-        [student_id, course_id]
+        "INSERT INTO enrollments (user_id, course_id) VALUES ($1, $2) RETURNING *",
+        [user_id, course_id]
     );
     return result.rows[0];
 };
 
-const updateEnrollment = async (id, student_id, course_id) => {
+const updateEnrollment = async (id, user_id, course_id) => {
     const result = await pool.query(
-        "UPDATE enrollments SET student_id = $1, course_id = $2 WHERE id = $3 RETURNING *",
-        [student_id, course_id, id]
+        "UPDATE enrollments SET user_id = $1, course_id = $2 WHERE id = $3 RETURNING *",
+        [user_id, course_id, id]
     );
     return result.rows[0];
 };

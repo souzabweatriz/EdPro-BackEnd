@@ -23,8 +23,8 @@ const getEnrollmentById = async (req, res) => {
 
 const createEnrollment = async (req, res) => {
     try {
-        const { student_id, course_id } = req.body;
-        const newEnrollment = await enrollmentModel.createEnrollment(student_id, course_id);
+        const { user_id, course_id } = req.body;
+        const newEnrollment = await enrollmentModel.createEnrollment(user_id, course_id);
         res.status(201).json(newEnrollment);
     } catch (error) {
         res.status(500).json({ message: "Erro ao criar matrícula." });
@@ -33,8 +33,8 @@ const createEnrollment = async (req, res) => {
 
 const updateEnrollment = async (req, res) => {
     try {
-        const { student_id, course_id } = req.body;
-        const updatedEnrollment = await enrollmentModel.updateEnrollment(req.params.id, student_id, course_id);
+        const { user_id, course_id } = req.body;
+        const updatedEnrollment = await enrollmentModel.updateEnrollment(req.params.id, user_id, course_id);
         if (!updatedEnrollment) {
             return res.status(404).json({ message: "Matrícula não encontrada." });
         }
