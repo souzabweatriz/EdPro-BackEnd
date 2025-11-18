@@ -3,7 +3,7 @@ INSERT INTO users (photo, full_name, username, email, phone, password, role) VAL
 ('/fotodeperfil', 'Luccas Augusto',    'luccasaugusto79',   'luccas.augusto@edpro.edu.br',  '11988880001', 'L4ucc4s#2025', 'professor'),
 ('/fotodeperfil', 'Rafael Moretti',    'moretti.rafael',   'rafael.moretti@edpro.edu.br',  '11977770002', 'Raf3lM2025$z', 'professor'),
 ('/fotodeperfil', 'Camila Duarte',     'camisduuarte',   'camila.duarte@edpro.edu.br',   '11966660003', 'C4m1la!2025ab', 'professor'),
-('/fotodeperfil', 'Gislaine Adriano',  'gislaineadriano16', 'gislaine.adriano@edpro.edu.br', '11955550004', 'G1sl4ine2025*', 'professor');
+('/fotodeperfil', 'Gislaine Adriano',  'gislaineadriano16', 'gislaine.adriano@edpro.edu.br', '11955550004', 'G1sl4ine2025', 'professor');
 
 INSERT INTO users (photo, full_name, username, email, phone, password, role) VALUES
 ('/fotodeperfil','Mariana Alves','marialves','mariana.alves@edpro.edu.br','11933330001','M4r!ana2025xy','aluno'),
@@ -96,4 +96,4 @@ INSERT INTO enrollments (user_id, course_id) VALUES
 (11, 3);
 
 INSERT INTO progress (enrollment_id, lesson_id, status, completed_at) VALUES
-(8, 1, 'incomplete', NULL);
+(8, 2, 'incomplete', NULL);
