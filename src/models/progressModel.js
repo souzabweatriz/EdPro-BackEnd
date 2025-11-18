@@ -36,4 +36,32 @@ const deleteProgress = async (id) => {
     return { message: "Progresso deletado com sucesso." };
 };
 
-module.exports = { getProgress, getProgressById, createProgress, updateProgress, deleteProgress };
+const getProgressPercentage = async (enrollment_id) => {
+    // Busca o id do curso pela matrícula
+    const enrollmentRes = await pool.query(
+        "SELECT course_id FROM enrollments WHERE id = $1",
+        [enrollment_id]
+    );
+    if (enrollmentRes.rowCount === 0) return 0;
+    const course_id = enrollmentRes.rows[0].course_id;
+
+    // Conta total de lições do curso
+    const lessonRes = await pool.query(
+        "SELECT COUNT(*) AS total_lessons FROM lessons WHERE course_id = $1",
+        [course_id]
+    );
+    const totalLessons = parseInt(lessonRes.rows[0].total_lessons, 10);
+
+    // Conta lições concluídas pelo aluno na matrícula
+    const completedRes = await pool.query(
+        "SELECT COUNT(*) AS completed_lessons FROM progress WHERE enrollment_id = $1 AND status = 'completed'",
+        [enrollment_id]
+    );
+    const completedLessons = parseInt(completedRes.rows[0].completed_lessons, 10);
+
+    if (totalLessons === 0) return 0;
+    return Math.round((completedLessons / totalLessons) * 100);
+};
+
+
+module.exports = { getProgress, getProgressById, createProgress, updateProgress, deleteProgress, getProgressPercentage };
