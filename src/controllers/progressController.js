@@ -53,4 +53,14 @@ const deleteProgress = async (req, res) => {
     }
 };
 
-module.exports = { getAllProgress, getProgressById, createProgress, updateProgress, deleteProgress };
+const getProgressPercentage = async (req, res) => {
+    try {
+        const { enrollment_id } = req.params;
+        const percentage = await progressModel.getProgressPercentage(enrollment_id);
+        res.json({ progress_percentage: percentage });
+    } catch (error) {
+        res.status(500).json({ message: "Erro ao calcular progresso." });
+    }
+};
+
+module.exports = { getAllProgress, getProgressById, createProgress, updateProgress, deleteProgress, getProgressPercentage };
