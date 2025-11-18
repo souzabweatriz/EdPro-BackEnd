@@ -44,4 +44,34 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 
 (1, 'Networking and Small Talk', 'How to socialize and build connections at work', 'Networking is an essential part of the modern corporate world. In this lesson, students learn how to start informal conversations, ask polite questions, and show genuine interest during professional events. Expressions like “It was nice meeting you. Let’s keep in touch.” and “Are you enjoying the event?” help build valuable connections and communicate naturally in social work situations.', 'lesson10.jpg');
 
+INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
+(2, 'Introduction to Emotional Intelligence', 'Understanding the foundations of EI', 
+'In this lesson, students are introduced to the concept of Emotional Intelligence (EI) and why it is essential in both personal and professional life. They learn the five core components: self-awareness, self-regulation, motivation, empathy, and social skills.', 'ei_intro.jpg'),
+
+(2, 'Self-Awareness', 'Recognizing your emotions and reactions', 
+'Students explore how to identify their emotions and understand how feelings influence thoughts and behavior. The lesson includes reflection exercises and phrases such as “I am noticing that I feel anxious right now.” to help label emotions clearly.', 'self_awareness.jpg'),
+
+(2, 'Self-Regulation', 'Managing emotions with clarity and balance', 
+'This lesson teaches strategies to handle difficult emotions, avoid impulsive reactions, and maintain emotional balance. Students practice techniques such as breathing, reframing thoughts, and pausing before responding.', 'self_regulation.jpg'),
+
+(2, 'Empathy in Practice', 'Understanding and connecting with others', 
+'Students learn how to recognize other people’s emotions, listen actively, and respond with understanding. The lesson includes useful expressions like “I understand how you feel.” and “That sounds challenging, how can I help?”.', 'empathy.jpg'),
+
+(2, 'Effective Communication', 'Expressing emotions with clarity and respect', 
+'This lesson focuses on verbal and nonverbal communication skills that improve emotional clarity. Students learn how to express needs, set boundaries, and handle sensitive conversations using assertive language.', 'communication.jpg'),
+
+(2, 'Managing Stress and Pressure', 'Developing emotional resilience at work', 
+'Students explore how stress affects the body and mind, and learn techniques to stay calm in high-pressure situations. The lesson includes grounding practices, guided breathing, and practical workplace examples.', 'stress_management.jpg'),
+
+(2, 'Conflict Resolution', 'Handling disagreements with emotional intelligence', 
+'This lesson teaches how to address conflicts respectfully while maintaining emotional control. Students learn phrases like “Let’s try to find a solution together.” and techniques for staying calm and objective during disagreements.', 'conflict_resolution.jpg'),
+
+(2, 'Building Healthy Relationships', 'Strengthening personal and professional connections', 
+'Students discover how emotional intelligence enhances teamwork, trust, and collaboration. The lesson covers active listening, appreciation statements, and maintaining supportive interactions.', 'relationships.jpg'),
+
+(2, 'Emotional Clarity in Decision-Making', 'Making thoughtful and balanced choices', 
+'This lesson explores how emotions influence decision-making. Students learn methods to separate emotion from impulse, evaluate options clearly, and make decisions that align with long-term goals.', 'decision_making.jpg'),
+
+(2, 'Personal Growth and EI Development', 'Creating a long-term emotional intelligence plan', 
+'In the final lesson, students reflect on their progress and create a personal plan to continue improving emotional intelligence. Activities include goal-setting, journaling, and daily emotional check-ins.', 'ei_growth.jpg');
 
