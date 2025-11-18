@@ -75,3 +75,35 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (2, 'Personal Growth and EI Development', 'Creating a long-term emotional intelligence plan', 
 'In the final lesson, students reflect on their progress and create a personal plan to continue improving emotional intelligence. Activities include goal-setting, journaling, and daily emotional check-ins.', 'ei_growth.jpg');
 
+INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
+(3, 'Introduction to Creative Thinking', 'Understanding how creativity works',
+'In this lesson, students explore what creativity really means and how it can be developed. They learn the difference between divergent and convergent thinking, and how creative ideas emerge from curiosity and experimentation.', 'creative_intro.jpg'),
+
+(3, 'Breaking Mental Barriers', 'Overcoming blocks and limiting beliefs',
+'Students learn how to identify limiting beliefs that restrict innovation and how to replace them with empowering thoughts. The lesson includes mindset-shifting techniques and reflective exercises to unlock new perspectives.', 'mental_barriers.jpg'),
+
+(3, 'Boosting Curiosity', 'Asking better questions to spark new ideas',
+'This lesson focuses on the power of curiosity. Students practice techniques like the “Why?” chain, open-ended questioning, and perspective switching to generate original ideas and expand creative thinking.', 'curiosity.jpg'),
+
+(3, 'Brainstorming Strategies', 'Generating ideas effectively',
+'Students learn structured brainstorming methods such as mind mapping, rapid ideation, SCAMPER, and the 6 Thinking Hats. The lesson emphasizes quantity over quality at the initial stage and encourages creative freedom.', 'brainstorming.jpg'),
+
+(3, 'Creative Problem-Solving', 'Innovative approaches to challenges',
+'This lesson teaches students how to view problems from multiple angles and apply creative frameworks like design thinking. They learn to empathize with users, define problems clearly, prototype, and test new solutions.', 'problem_solving.jpg'),
+
+(3, 'Innovation in Everyday Life', 'Applying creativity to real situations',
+'Students discover how creativity is not limited to art—it appears in daily routines, workplace challenges, and personal decisions. The lesson includes practical examples and prompts to develop creative habits.', 'everyday_creativity.jpg'),
+
+(3, 'Thinking Outside the Box', 'Developing unconventional and bold ideas',
+'This lesson encourages students to challenge assumptions, break patterns, and explore unusual solutions. Techniques include random stimulation, analogies, and “What if…?” exploration.', 'outside_the_box.jpg'),
+
+(3, 'Collaboration & Creativity', 'Creating innovative ideas as a team',
+'Students learn how teamwork enhances creativity through diversity of thought. The lesson covers brainstorming etiquette, active listening, group synergy, and how to transform team discussions into innovative outcomes.', 'collaboration.jpg'),
+
+(3, 'Creative Confidence', 'Building courage to share your ideas',
+'This lesson focuses on overcoming fear of judgment, embracing mistakes, and building confidence to share creative ideas. Students practice positive self-talk and learn how to transform failures into growth.', 'creative_confidence.jpg'),
+
+(3, 'Turning Ideas into Action', 'Transforming creativity into real projects',
+'In the final lesson, students learn how to evaluate ideas, plan actionable steps, and bring creative projects to life. Topics include prioritization, prototyping, iteration, and maintaining creative discipline.', 'ideas_to_action.jpg');
+
+
