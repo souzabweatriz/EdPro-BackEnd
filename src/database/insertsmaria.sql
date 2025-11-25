@@ -170,14 +170,14 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 'In the final lesson, students learn how to apply digital tools creatively to solve problems. They explore troubleshooting strategies, logical thinking, and how to choose the right tool for each task.', 'digital_problem_solving.jpg');
 
 INSERT INTO enrollments (user_id, course_id) VALUES
-(6, 11),
-(7, 12),
-(8, 13),
-(9, 14),
-(10, 15);
+(6, 10),
+(7, 6),
+(8, 9),
+(9, 8),
+(10, 7);
 
 
 INSERT INTO progress (enrollment_id, lesson_id, status, completed_at) VALUES
-(1, 1, 'incomplete', NULL);
+(8, 8, 'incomplete', NULL);
 
 
