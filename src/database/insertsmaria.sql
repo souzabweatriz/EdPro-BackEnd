@@ -1,25 +1,25 @@
 INSERT INTO users (photo, full_name, username, email, phone, password, role) VALUES
-('/.fotodeperfil', 'Rodrigo Parma', 'rodrigoparma02', 'rodrigoparma@gmail.com', '19996661071', 'rodrigop02', 'professor'),
-('/.fotodeperfil', 'Maria Silva', 'mariasilva', 'maria.silva@example.com', '11999990001', 'maria01', 'professor'),
-('/.fotodeperfil', 'João Pereira', 'joaopereira', 'joao.pereira@example.com', '11999990002', 'joao02', 'professor'),
-('/.fotodeperfil', 'Mariana Costa', 'marianacosta', 'mariana.costa@example.com', '21988880003', 'mariana03', 'professor'),
-('/.fotodeperfil', 'Carlos Alberto', 'carlosalberto', 'carlos.alberto@example.com', '31977770004', 'carlos04', 'professor');
+('https://i.pinimg.com/736x/d0/58/de/d058de5ebda75f524443b0c707b84135.jpg', 'Rodrigo Parma', 'rodrigoparma02', 'rodrigoparma@gmail.com', '19996661071', 'rodrigop02', 'professor'),
+('https://i.pinimg.com/736x/a5/22/20/a5222010f5d71c7b48c36f78573b8896.jpg', 'Maria Silva', 'mariasilva', 'maria.silva@example.com', '11999990001', 'maria01', 'professor'),
+('https://i.pinimg.com/736x/d2/c9/b7/d2c9b7a1ea6d1306b217b0f3016ad265.jpg', 'João Pereira', 'joaopereira', 'joao.pereira@example.com', '11999990002', 'joao02', 'professor'),
+('https://i.pinimg.com/736x/f5/3f/e6/f53fe6ba57b9f80c5f9d1125f22deea0.jpg', 'Mariana Costa', 'marianacosta', 'mariana.costa@example.com', '21988880003', 'mariana03', 'professor'),
+('https://i.pinimg.com/736x/95/67/b1/9567b1043470a9cab04621b3eb58c8ce.jpg', 'Carlos Alberto', 'carlosalberto', 'carlos.alberto@example.com', '31977770004', 'carlos04', 'professor');
 
 INSERT INTO users (photo, full_name, username, email, phone, password, role) VALUES
-('/.fotodeperfil', 'Ana Souza', 'anasouza', 'anasouza@gmail.com', '41955551234', 'ana123', 'aluno'),
-('/.fotodeperfil', 'Bruno Lima', 'brunolima', 'brunolima@gmail.com', '41955554321', 'bruno123', 'aluno'),
-('/.fotodeperfil', 'Carla Mendes', 'carlamendes', 'carlamendes@gmail.com', '41955557654', 'carla123', 'aluno'),
-('/.fotodeperfil', 'Daniel Ferreira', 'danielferreira', 'danielferreira@gmail.com', '41955559876', 'daniel123', 'aluno'),
-('/.fotodeperfil', 'Elisa Gomes', 'elisagomes', 'elisagomes@gmail.com', '41955553421', 'elisa123', 'aluno');
+('https://i.pinimg.com/1200x/b4/3a/3e/b43a3e37f66f9161a5d31a87fb48a145.jpg', 'Ana Souza', 'anasouza', 'anasouza@gmail.com', '41955551234', 'ana123', 'aluno'),
+('', 'Bruno Lima', 'brunolima', 'brunolima@gmail.com', '41955554321', 'bruno123', 'aluno'),
+('', 'Carla Mendes', 'carlamendes', 'carlamendes@gmail.com', '41955557654', 'carla123', 'aluno'),
+('', 'Daniel Ferreira', 'danielferreira', 'danielferreira@gmail.com', '41955559876', 'daniel123', 'aluno'),
+('', 'Elisa Gomes', 'elisagomes', 'elisagomes@gmail.com', '41955553421', 'elisa123', 'aluno');
 
 
 INSERT INTO courses (owner_id, photo, title, description, category)
 VALUES
-(6, 'englishflow.jpg', 'English Flow: Professional Communication', 'A course designed to develop clear, objective, and professional communication skills in English for corporate environments.', 'Languages'),
-(7, 'emotionclarity.jpg', 'Emotion & Clarity: Emotional Intelligence in Practice', 'A practical course focused on developing emotional intelligence, self-awareness, and clear communication in both personal and professional life.', 'Personal Development'),
-(8, 'creativemind.jpg', 'Creative Mindset: Unlock Your Innovative Potential', 'A course focused on enhancing creativity, problem-solving, and innovation through practical exercises and real-world applications.', 'Personal Development'),
-(9, 'leadershippath.jpg', 'Leadership Path: Inspiring Teams with Purpose', 'A leadership course designed to help students understand team dynamics, motivation strategies, and purpose-driven management.', 'Business'),
-(10, 'digitalskills.jpg', 'Digital Skills Accelerator: Mastering Modern Tools', 'A practical course that teaches essential digital tools and technologies to improve productivity and performance in the modern workplace.', 'Technology');
+(6, '', 'English Flow: Professional Communication', 'A course designed to develop clear, objective, and professional communication skills in English for corporate environments.', 'Languages'),
+(7, '', 'Emotion & Clarity: Emotional Intelligence in Practice', 'A practical course focused on developing emotional intelligence, self-awareness, and clear communication in both personal and professional life.', 'Personal Development'),
+(8, '', 'Creative Mindset: Unlock Your Innovative Potential', 'A course focused on enhancing creativity, problem-solving, and innovation through practical exercises and real-world applications.', 'Personal Development'),
+(9, '', 'Leadership Path: Inspiring Teams with Purpose', 'A leadership course designed to help students understand team dynamics, motivation strategies, and purpose-driven management.', 'Business'),
+(10, '', 'Digital Skills Accelerator: Mastering Modern Tools', 'A practical course that teaches essential digital tools and technologies to improve productivity and performance in the modern workplace.', 'Technology');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (6, 'Workplace Introductions', 'How to introduce yourself professionally in English', 'Learning how to introduce yourself in English is the first step to communicating with confidence in the workplace. In this lesson, students learn how to say their name, job position, and department, as well as greet colleagues and start conversations politely. Simple expressions like “Hello, my name is Maria. I work in the marketing department.” and “Nice to meet you, John! What do you do at the company?” help build natural and clear connections.', 'lesson1.jpg'),
