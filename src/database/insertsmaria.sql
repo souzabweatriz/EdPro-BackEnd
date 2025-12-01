@@ -7,10 +7,11 @@ INSERT INTO users (photo, full_name, username, email, phone, password, role) VAL
 
 INSERT INTO users (photo, full_name, username, email, phone, password, role) VALUES
 ('https://i.pinimg.com/1200x/b4/3a/3e/b43a3e37f66f9161a5d31a87fb48a145.jpg', 'Ana Souza', 'anasouza', 'anasouza@gmail.com', '41955551234', 'ana123', 'aluno'),
-('', 'Bruno Lima', 'brunolima', 'brunolima@gmail.com', '41955554321', 'bruno123', 'aluno'),
-('', 'Carla Mendes', 'carlamendes', 'carlamendes@gmail.com', '41955557654', 'carla123', 'aluno'),
-('', 'Daniel Ferreira', 'danielferreira', 'danielferreira@gmail.com', '41955559876', 'daniel123', 'aluno'),
-('', 'Elisa Gomes', 'elisagomes', 'elisagomes@gmail.com', '41955553421', 'elisa123', 'aluno');
+('https://i.pinimg.com/736x/81/74/bc/8174bc895d3947c56f504c6d26d1525e.jpg', 'Bruno Lima', 'brunolima', 'brunolima@gmail.com', '41955554321', 'bruno123', 'aluno'),
+('https://i.pinimg.com/736x/af/8a/e6/af8ae63c6d0139d807dd1ca16214e3b6.jpg', 'Carla Mendes', 'carlamendes', 'carlamendes@gmail.com', '41955557654', 'carla123', 'aluno'),
+('https://i.pinimg.com/736x/65/d0/74/65d0747b42c81a76c9b49a548d7009b2.jpg', 'Daniel Ferreira', 'danielferreira', 'danielferreira@gmail.com', '41955559876', 'daniel123', 'aluno'),
+('https://i.pinimg.com/736x/7c/b4/ed/7cb4edc16cee1aaf3bf09fb98f0821c6.jpg', 'Elisa Gomes', 'elisagomes', 'elisagomes@gmail.com', '41955553421', 'elisa123', 'aluno');
+
 
 
 INSERT INTO courses (owner_id, photo, title, description, category)
