@@ -206,6 +206,37 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (11, 'Maintaining a Digital Presence', 'Long-term consistency', 
 'Learn how to keep a relevant and consistent digital presence.', '');
 
+INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
+(12, 'What Makes a Leader?', 'Leadership fundamentals', 
+'Explore the essential qualities that define effective leaders.', ''),
+
+(12, 'Core Leadership Styles', 'Leadership styles', 
+'Understand key leadership styles and when to apply each one.', ''),
+
+(12, 'Emotional Intelligence in Leadership', 'Emotional intelligence', 
+'Learn how emotional intelligence strengthens leadership skills.', ''),
+
+(12, 'Communication That Inspires', 'Inspirational communication', 
+'Develop communication skills that motivate and inspire others.', ''),
+
+(12, 'Delegation & Trust Building', 'Delegation skills', 
+'Learn how to delegate effectively and build trust within your team.', ''),
+
+(12, 'Giving & Receiving Feedback', 'Feedback mastery', 
+'Master the art of giving and receiving productive feedback.', ''),
+
+(12, 'Conflict Resolution Techniques', 'Conflict resolution', 
+'Learn techniques to resolve conflicts professionally and safely.', ''),
+
+(12, 'Motivating Teams', 'Team motivation', 
+'Explore strategies to motivate and energize teams.', ''),
+
+(12, 'Decision-Making Under Pressure', 'Critical decision-making', 
+'Improve your ability to make decisions during high-pressure situations.', ''),
+
+(12, 'Building a Leadership Plan', 'Leadership development plan', 
+'Create a personalized plan for continuous leadership growth.', '');
+
 
 
 INSERT INTO enrollments (user_id, course_id) VALUES
