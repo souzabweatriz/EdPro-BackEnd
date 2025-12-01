@@ -175,6 +175,39 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (10, 'Digital Problem-Solving', 'Using technology to solve real-world challenges',
 'In the final lesson, students learn how to apply digital tools creatively to solve problems. They explore troubleshooting strategies, logical thinking, and how to choose the right tool for each task.', 'digital_problem_solving.jpg');
 
+INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
+(11, 'Understanding Digital Positioning', 'Introduction to digital positioning',
+ 'Learn the basics of how digital positioning works and why it matters.', ''),
+
+(11, 'Creating a Professional Online Identity', 'Building your online identity',
+ 'Develop a consistent and trustworthy online presence across all platforms.', ''),
+
+(11, 'Social Media Branding Essentials', 'Branding fundamentals', 
+'Understand key branding elements that strengthen your social media presence.', ''),
+
+(11, 'Defining Your Target Audience', 'Audience identification', 
+'Learn how to identify, study, and segment your ideal audience.', ''),
+
+(11, 'Crafting an Effective Content Strategy', 'Content strategy foundations', 
+'Build a strategic content plan aligned with your goals.', ''),
+
+(11, 'Engaging With Online Communities', 'Community engagement', 
+'Develop strong, active relationships within online communities.', ''),
+
+(11, 'SEO Basics for Visibility', 'SEO fundamentals', 
+'Improve your organic visibility using simple SEO techniques.', ''),
+
+(11, 'Digital Etiquette & Trust Building', 'Online professionalism', 
+'Behave professionally online and build digital trust.', ''),
+
+(11, 'Measuring Online Performance', 'Performance metrics', 
+'Track, analyze, and understand key digital indicators.', ''),
+
+(11, 'Maintaining a Digital Presence', 'Long-term consistency', 
+'Learn how to keep a relevant and consistent digital presence.', '');
+
+
+
 INSERT INTO enrollments (user_id, course_id) VALUES
 (6, 10),
 (7, 6),
