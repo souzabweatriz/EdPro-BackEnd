@@ -10,9 +10,16 @@ INSERT INTO users (photo, full_name, username, email, phone, password, role) VAL
 ('https://i.pinimg.com/736x/81/74/bc/8174bc895d3947c56f504c6d26d1525e.jpg', 'Bruno Lima', 'brunolima', 'brunolima@gmail.com', '41955554321', 'bruno123', 'aluno'),
 ('https://i.pinimg.com/736x/af/8a/e6/af8ae63c6d0139d807dd1ca16214e3b6.jpg', 'Carla Mendes', 'carlamendes', 'carlamendes@gmail.com', '41955557654', 'carla123', 'aluno'),
 ('https://i.pinimg.com/736x/65/d0/74/65d0747b42c81a76c9b49a548d7009b2.jpg', 'Daniel Ferreira', 'danielferreira', 'danielferreira@gmail.com', '41955559876', 'daniel123', 'aluno'),
-('https://i.pinimg.com/736x/7c/b4/ed/7cb4edc16cee1aaf3bf09fb98f0821c6.jpg', 'Elisa Gomes', 'elisagomes', 'elisagomes@gmail.com', '41955553421', 'elisa123', 'aluno');
-
-
+('https://i.pinimg.com/736x/7c/b4/ed/7cb4edc16cee1aaf3bf09fb98f0821c6.jpg', 'Elisa Gomes', 'elisagomes', 'elisagomes@gmail.com', '41955553421', 'elisa123', 'aluno'),
+('https://i.pinimg.com/1200x/cb/ba/08/cbba08e7f751a14e536eeca178818c15.jpg', 'Felipe Rocha', 'feliperocha', 'feliperocha@gmail.com', '41955556789', 'felipe123', 'aluno'),
+('https://i.pinimg.com/736x/55/71/8a/55718ace3fb9e212ae701606a39d14fe.jpg', 'Gabriela Alves', 'gabrielaalves', 'gabrielaalves@gmail.com', '41955551235', 'gabriela123', 'aluno'),
+('https://i.pinimg.com/736x/80/a6/49/80a64977e4a4749d8ce504e54f186f0e.jpg', 'Hugo Santos', 'hugosantos', 'hugosantos@gmail.com', '41955554322', 'hugo123', 'aluno'),
+('https://i.pinimg.com/736x/7e/fb/b2/7efbb2a1a8a08bab88c36f9d0d8ec8e4.jpg', 'Isabela Ribeiro', 'isabelaribeiro', 'isabelaribeiro@gmail.com', '41955557655', 'isabela123', 'aluno'),
+('https://i.pinimg.com/736x/12/a1/2d/12a12d15c2274c180fa91c5888e8e49e.jpg', 'João Marcos', 'joaomarcos', 'joaomarcos@gmail.com', '41955559877', 'joao123', 'aluno'),
+('https://i.pinimg.com/736x/66/00/c5/6600c5f4eb7f250dcf4a292de48e3ccc.jpg', 'Karla Dias', 'karladias', 'karladias@gmail.com', '41955553422', 'karla123', 'aluno'),
+('https://i.pinimg.com/736x/0e/d9/ce/0ed9cea94dd7bc4927bc57a2ce74e34f.jpg', 'Lucas Nascimento', 'lucasnascimento', 'lucasnascimento@gmail.com', '41955556780', 'lucas123', 'aluno'),
+('https://i.pinimg.com/736x/ae/d5/30/aed5309b656778319a45ecbd4c520590.jpg', 'Marina Oliveira', 'marinaoliveira', 'marinaoliveira@gmail.com', '41955551236', 'marina123', 'aluno'),
+('https://i.pinimg.com/736x/03/ca/54/03ca5433f09ce3431c59c66ea4c82971.jpg', 'Nicolas Cardoso', 'nicolascardoso', 'nicolascardoso@gmail.com', '41955554323', 'nicolas123', 'aluno');
 
 INSERT INTO courses (owner_id, photo, title, description, category)
 VALUES
@@ -331,7 +338,7 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (15, 'Career Development', 'Growing professionally', 
 'How to build a long-term plan for career success.', '');
 
-
+ 
 INSERT INTO enrollments (user_id, course_id) VALUES
 (6, 10),
 (7, 6),
