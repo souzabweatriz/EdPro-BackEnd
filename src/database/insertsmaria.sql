@@ -269,6 +269,40 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (13, 'Designing a Productivity System', 'Personal productivity system', 
 'Build your own productivity system tailored to your creative style.', '');
 
+INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
+(14, 'Introduction to Productivity Tools', 'Modern work essentials', 
+'Overview of the main digital tools used in productive workflows.', ''),
+
+(14, 'Task Management', 'Organizing your work', 
+'Using digital apps to manage tasks, deadlines, and routines.', ''),
+
+(14, 'Cloud Collaboration', 'Working from anywhere', 
+'How cloud platforms help teams collaborate in real time.', ''),
+
+(14, 'Time Optimization', 'Doing more in less time', 
+'Techniques such as Pomodoro and time blocking.', ''),
+
+(14, 'Digital Note-Taking', 'Save everything clearly', 
+'Best practices for keeping organized digital notes.', ''),
+
+(14, 'Automation Basics', 'Let technology work for you', 
+'Using automation to simplify repetitive tasks.', ''),
+
+(14, 'Email Management', 'Controlling your inbox', 
+'Strategies to avoid overload and communicate effectively.', ''),
+
+(14, 'Focus & Distraction Control', 'Staying on track', 
+'Digital habits to reduce distractions and improve focus.', ''),
+
+(14, 'Remote Work Skills', 'Hybrid productivity', 
+'How to stay productive in remote and hybrid environments.', ''),
+
+(14, 'Long-Term Productivity Systems', 'Consistency is key', 
+'Building a sustainable personal productivity system.', '');
+
+
+
+
 
 
 INSERT INTO enrollments (user_id, course_id) VALUES
