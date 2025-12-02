@@ -1,62 +1,109 @@
 INSERT INTO users (photo, full_name, username, email, phone, password, role) VALUES
-('https://i.pinimg.com/736x/d0/58/de/d058de5ebda75f524443b0c707b84135.jpg', 'Rodrigo Parma', 'rodrigoparma02', 'rodrigoparma@gmail.com', '19996661071', 'rodrigop02', 'professor'),
-('https://i.pinimg.com/736x/a5/22/20/a5222010f5d71c7b48c36f78573b8896.jpg', 'Maria Silva', 'mariasilva', 'maria.silva@example.com', '11999990001', 'maria01', 'professor'),
-('https://i.pinimg.com/736x/d2/c9/b7/d2c9b7a1ea6d1306b217b0f3016ad265.jpg', 'João Pereira', 'joaopereira', 'joao.pereira@example.com', '11999990002', 'joao02', 'professor'),
-('https://i.pinimg.com/736x/f5/3f/e6/f53fe6ba57b9f80c5f9d1125f22deea0.jpg', 'Mariana Costa', 'marianacosta', 'mariana.costa@example.com', '21988880003', 'mariana03', 'professor'),
-('https://i.pinimg.com/736x/95/67/b1/9567b1043470a9cab04621b3eb58c8ce.jpg', 'Carlos Alberto', 'carlosalberto', 'carlos.alberto@example.com', '31977770004', 'carlos04', 'professor');
+('https://i.pinimg.com/736x/d0/58/de/d058de5ebda75f524443b0c707b84135.jpg', 'Rodrigo Parma', 'rodrigoparma02', 'rodrigoparma@gmail.com', 
+'19996661071', 'rodrigop02', 'professor'),
+('https://i.pinimg.com/736x/a5/22/20/a5222010f5d71c7b48c36f78573b8896.jpg', 'Maria Silva', 'mariasilva', 'maria.silva@example.com', 
+'11999990001', 'maria01', 'professor'),
+('https://i.pinimg.com/736x/d2/c9/b7/d2c9b7a1ea6d1306b217b0f3016ad265.jpg', 'João Pereira', 'joaopereira', 'joao.pereira@example.com', 
+'11999990002', 'joao02', 'professor'),
+('https://i.pinimg.com/736x/f5/3f/e6/f53fe6ba57b9f80c5f9d1125f22deea0.jpg', 'Mariana Costa', 'marianacosta', 'mariana.costa@example.com', 
+'21988880003', 'mariana03', 'professor'),
+('https://i.pinimg.com/736x/95/67/b1/9567b1043470a9cab04621b3eb58c8ce.jpg', 'Carlos Alberto', 'carlosalberto', 'carlos.alberto@example.com', 
+'31977770004', 'carlos04', 'professor');
 
 INSERT INTO users (photo, full_name, username, email, phone, password, role) VALUES
-('https://i.pinimg.com/1200x/b4/3a/3e/b43a3e37f66f9161a5d31a87fb48a145.jpg', 'Ana Souza', 'anasouza', 'anasouza@gmail.com', '41955551234', 'ana123', 'aluno'),
-('https://i.pinimg.com/736x/81/74/bc/8174bc895d3947c56f504c6d26d1525e.jpg', 'Bruno Lima', 'brunolima', 'brunolima@gmail.com', '41955554321', 'bruno123', 'aluno'),
-('https://i.pinimg.com/736x/af/8a/e6/af8ae63c6d0139d807dd1ca16214e3b6.jpg', 'Carla Mendes', 'carlamendes', 'carlamendes@gmail.com', '41955557654', 'carla123', 'aluno'),
-('https://i.pinimg.com/736x/65/d0/74/65d0747b42c81a76c9b49a548d7009b2.jpg', 'Daniel Ferreira', 'danielferreira', 'danielferreira@gmail.com', '41955559876', 'daniel123', 'aluno'),
-('https://i.pinimg.com/736x/7c/b4/ed/7cb4edc16cee1aaf3bf09fb98f0821c6.jpg', 'Elisa Gomes', 'elisagomes', 'elisagomes@gmail.com', '41955553421', 'elisa123', 'aluno'),
-('https://i.pinimg.com/1200x/cb/ba/08/cbba08e7f751a14e536eeca178818c15.jpg', 'Felipe Rocha', 'feliperocha', 'feliperocha@gmail.com', '41955556789', 'felipe123', 'aluno'),
-('https://i.pinimg.com/736x/55/71/8a/55718ace3fb9e212ae701606a39d14fe.jpg', 'Gabriela Alves', 'gabrielaalves', 'gabrielaalves@gmail.com', '41955551235', 'gabriela123', 'aluno'),
-('https://i.pinimg.com/736x/80/a6/49/80a64977e4a4749d8ce504e54f186f0e.jpg', 'Hugo Santos', 'hugosantos', 'hugosantos@gmail.com', '41955554322', 'hugo123', 'aluno'),
-('https://i.pinimg.com/736x/7e/fb/b2/7efbb2a1a8a08bab88c36f9d0d8ec8e4.jpg', 'Isabela Ribeiro', 'isabelaribeiro', 'isabelaribeiro@gmail.com', '41955557655', 'isabela123', 'aluno'),
-('https://i.pinimg.com/736x/12/a1/2d/12a12d15c2274c180fa91c5888e8e49e.jpg', 'João Marcos', 'joaomarcos', 'joaomarcos@gmail.com', '41955559877', 'joao123', 'aluno'),
-('https://i.pinimg.com/736x/66/00/c5/6600c5f4eb7f250dcf4a292de48e3ccc.jpg', 'Karla Dias', 'karladias', 'karladias@gmail.com', '41955553422', 'karla123', 'aluno'),
-('https://i.pinimg.com/736x/0e/d9/ce/0ed9cea94dd7bc4927bc57a2ce74e34f.jpg', 'Lucas Nascimento', 'lucasnascimento', 'lucasnascimento@gmail.com', '41955556780', 'lucas123', 'aluno'),
-('https://i.pinimg.com/736x/ae/d5/30/aed5309b656778319a45ecbd4c520590.jpg', 'Marina Oliveira', 'marinaoliveira', 'marinaoliveira@gmail.com', '41955551236', 'marina123', 'aluno'),
-('https://i.pinimg.com/736x/03/ca/54/03ca5433f09ce3431c59c66ea4c82971.jpg', 'Nicolas Cardoso', 'nicolascardoso', 'nicolascardoso@gmail.com', '41955554323', 'nicolas123', 'aluno');
+('https://i.pinimg.com/1200x/b4/3a/3e/b43a3e37f66f9161a5d31a87fb48a145.jpg', 'Ana Souza', 'anasouza', 'anasouza@gmail.com', 
+'41955551234', 'ana123', 'aluno'),
+('https://i.pinimg.com/736x/81/74/bc/8174bc895d3947c56f504c6d26d1525e.jpg', 'Bruno Lima', 'brunolima', 'brunolima@gmail.com', 
+'41955554321', 'bruno123', 'aluno'),
+('https://i.pinimg.com/736x/af/8a/e6/af8ae63c6d0139d807dd1ca16214e3b6.jpg', 'Carla Mendes', 'carlamendes', 'carlamendes@gmail.com', 
+'41955557654', 'carla123', 'aluno'),
+('https://i.pinimg.com/736x/65/d0/74/65d0747b42c81a76c9b49a548d7009b2.jpg', 'Daniel Ferreira', 'danielferreira', 'danielferreira@gmail.com', 
+'41955559876', 'daniel123', 'aluno'),
+('https://i.pinimg.com/736x/7c/b4/ed/7cb4edc16cee1aaf3bf09fb98f0821c6.jpg', 'Elisa Gomes', 'elisagomes', 'elisagomes@gmail.com', 
+'41955553421', 'elisa123', 'aluno'),
+('https://i.pinimg.com/1200x/cb/ba/08/cbba08e7f751a14e536eeca178818c15.jpg', 'Felipe Rocha', 'feliperocha', 'feliperocha@gmail.com', 
+'41955556789', 'felipe123', 'aluno'),
+('https://i.pinimg.com/736x/55/71/8a/55718ace3fb9e212ae701606a39d14fe.jpg', 'Gabriela Alves', 'gabrielaalves', 'gabrielaalves@gmail.com', 
+'41955551235', 'gabriela123', 'aluno'),
+('https://i.pinimg.com/736x/80/a6/49/80a64977e4a4749d8ce504e54f186f0e.jpg', 'Hugo Santos', 'hugosantos', 'hugosantos@gmail.com', 
+'41955554322', 'hugo123', 'aluno'),
+('https://i.pinimg.com/736x/7e/fb/b2/7efbb2a1a8a08bab88c36f9d0d8ec8e4.jpg', 'Isabela Ribeiro', 'isabelaribeiro', 'isabelaribeiro@gmail.com', 
+'41955557655', 'isabela123', 'aluno'),
+('https://i.pinimg.com/736x/12/a1/2d/12a12d15c2274c180fa91c5888e8e49e.jpg', 'João Marcos', 'joaomarcos', 'joaomarcos@gmail.com', 
+'41955559877', 'joao123', 'aluno'),
+('https://i.pinimg.com/736x/66/00/c5/6600c5f4eb7f250dcf4a292de48e3ccc.jpg', 'Karla Dias', 'karladias', 'karladias@gmail.com', 
+'41955553422', 'karla123', 'aluno'),
+('https://i.pinimg.com/736x/0e/d9/ce/0ed9cea94dd7bc4927bc57a2ce74e34f.jpg', 'Lucas Nascimento', 'lucasnascimento', 'lucasnascimento@gmail.com', 
+'41955556780', 'lucas123', 'aluno'),
+('https://i.pinimg.com/736x/ae/d5/30/aed5309b656778319a45ecbd4c520590.jpg', 'Marina Oliveira', 'marinaoliveira', 'marinaoliveira@gmail.com', 
+'41955551236', 'marina123', 'aluno'),
+('https://i.pinimg.com/736x/03/ca/54/03ca5433f09ce3431c59c66ea4c82971.jpg', 'Nicolas Cardoso', 'nicolascardoso', 'nicolascardoso@gmail.com', 
+'41955554323', 'nicolas123', 'aluno');
 
 INSERT INTO courses (owner_id, photo, title, description, category)
 VALUES
-(6, '', 'English Flow: Professional Communication', 'A course designed to develop clear, objective, and professional communication skills in English for corporate environments.', 'Languages'),
-(7, '', 'Emotion & Clarity: Emotional Intelligence in Practice', 'A practical course focused on developing emotional intelligence, self-awareness, and clear communication in both personal and professional life.', 'Personal Development'),
-(8, '', 'Creative Mindset: Unlock Your Innovative Potential', 'A course focused on enhancing creativity, problem-solving, and innovation through practical exercises and real-world applications.', 'Personal Development'),
-(9, '', 'Leadership Path: Inspiring Teams with Purpose', 'A leadership course designed to help students understand team dynamics, motivation strategies, and purpose-driven management.', 'Business'),
-(10, '', 'Digital Skills Accelerator: Mastering Modern Tools', 'A practical course that teaches essential digital tools and technologies to improve productivity and performance in the modern workplace.', 'Technology');
-(11, '', 'digitalstrategy.jpg', 'Digital Strategy: Building a Strong Online Presence', 'A course focused on developing digital positioning, online identity, and content strategies for a professional online presence.', 'Development'),
-(12, '', 'leadershipessentials.jpg', 'Leadership Essentials: Foundations of Modern Leadership', 'A complete leadership guide covering communication, emotional intelligence, delegation, conflict resolution, and modern leadership practices.', 'Development'),
+(6, '', 'English Flow: Professional Communication', 
+'A course designed to develop clear, objective, and professional communication skills in English for corporate environments.', 'Languages'),
+
+(7, '', 'Emotion & Clarity: Emotional Intelligence in Practice', 
+'A practical course focused on developing emotional intelligence, self-awareness, and clear communication in both personal and professional life.', 'Personal Development'),
+
+(8, '', 'Creative Mindset: Unlock Your Innovative Potential', 
+'A course focused on enhancing creativity, problem-solving, and innovation through practical exercises and real-world applications.', 'Personal Development'),
+
+(9, '', 'Leadership Path: Inspiring Teams with Purpose', 
+'A leadership course designed to help students understand team dynamics, motivation strategies, and purpose-driven management.', 'Business'),
+
+(10, '', 'Digital Skills Accelerator: Mastering Modern Tools', 
+'A practical course that teaches essential digital tools and technologies to improve productivity and performance in the modern workplace.', 'Technology');
+
+(11, '', 'digitalstrategy.jpg', 'Digital Strategy: Building a Strong Online Presence', 
+'A course focused on developing digital positioning, online identity, and content strategies for a professional online presence.', 'Development'),
+
+(12, '', 'leadershipessentials.jpg', 'Leadership Essentials: Foundations of Modern Leadership', 
+'A complete leadership guide covering communication, emotional intelligence, delegation, conflict resolution, and modern leadership practices.', 'Development'),
+
 (13, '', 'creativeproductivity.jpg', 'Creative Productivity: Mastering Focus & Innovation', 'A productivity course designed to help students unlock creativity, manage time effectively, and convert ideas into meaningful results.', 'Development'),
-(14, '', 'smartcommunication.jpg', 'Smart Communication: Clear & Confident Expression', 'A course that develops clarity, confidence, and effectiveness in daily and professional communication.', 'Development'),
-(15, '', 'personalfinance.jpg', 'Personal Finance Basics: Building a Healthy Money Mindset', 'A practical finance course teaching budgeting, saving, managing expenses, and creating healthy financial habits.', 'Development');
+
+(14, '', 'smartcommunication.jpg', 'Smart Communication: Clear & Confident Expression', 
+'A course that develops clarity, confidence, and effectiveness in daily and professional communication.', 'Development'),
+
+(15, '', 'personalfinance.jpg', 'Personal Finance Basics: Building a Healthy Money Mindset', 
+'A practical finance course teaching budgeting, saving, managing expenses, and creating healthy financial habits.', 'Development');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
-(6, 'Workplace Introductions', 'How to introduce yourself professionally in English', 'Learning how to introduce yourself in English is the first step to communicating with confidence in the workplace. In this lesson, students learn how to say their name, job position, and department, as well as greet colleagues and start conversations politely. Simple expressions like “Hello, my name is Maria. I work in the marketing department.” and “Nice to meet you, John! What do you do at the company?” help build natural and clear connections.', 'https://youtu.be/ai9bWeihYWM'),
+(6, 'Workplace Introductions', 'How to introduce yourself professionally in English', 
+'Learning how to introduce yourself in English is the first step to communicating with confidence in the workplace. In this lesson, students learn how to say their name, job position, and department, as well as greet colleagues and start conversations politely. Simple expressions like “Hello, my name is Maria. I work in the marketing department.” and “Nice to meet you, John! What do you do at the company?” help build natural and clear connections.', 'https://youtu.be/ai9bWeihYWM'),
 
-(6, 'Professional Email Communication', 'Writing professional emails in English', 'Email communication is one of the most common forms of interaction in the corporate environment. In this lesson, students learn how to structure a professional email with appropriate greetings, a clear and objective body, and polite closings. Expressions like “Dear Mr. Smith, I hope this message finds you well.” and “Thank you for your time and attention.” demonstrate courtesy and help build strong professional relationships.', 'https://youtu.be/pwp6N9s3ecw?si=hoVrh5IWEw_-pg4i'),
+(6, 'Professional Email Communication', 'Writing professional emails in English', 
+'Email communication is one of the most common forms of interaction in the corporate environment. In this lesson, students learn how to structure a professional email with appropriate greetings, a clear and objective body, and polite closings. Expressions like “Dear Mr. Smith, I hope this message finds you well.” and “Thank you for your time and attention.” demonstrate courtesy and help build strong professional relationships.', 'https://youtu.be/pwp6N9s3ecw?si=hoVrh5IWEw_-pg4i'),
 
-(6, 'Office Vocabulary', 'Common workplace words and expressions', 'Mastering vocabulary used in corporate environments greatly improves daily communication. This lesson presents common words used in emails, meetings, and reports, such as meeting, deadline, boss, task, and report. Students learn to apply these terms in real sentences like “We have a meeting at 10 a.m.” and “The deadline for this project is next Friday.” to increase confidence when speaking or writing in English at work.', 'https://youtu.be/2BF9E_lCbHQ?si=T_kipyDIAHpegct8'),
+(6, 'Office Vocabulary', 'Common workplace words and expressions', 
+'Mastering vocabulary used in corporate environments greatly improves daily communication. This lesson presents common words used in emails, meetings, and reports, such as meeting, deadline, boss, task, and report. Students learn to apply these terms in real sentences like “We have a meeting at 10 a.m.” and “The deadline for this project is next Friday.” to increase confidence when speaking or writing in English at work.', 'https://youtu.be/2BF9E_lCbHQ?si=T_kipyDIAHpegct8'),
 
-(6, 'Meetings and Collaboration', 'How to participate in meetings in English', 'Participating in meetings in English requires clarity, active listening, and proper vocabulary. In this lesson, students learn expressions for agreeing, disagreeing, and presenting ideas politely. Phrases like “I agree with you.” and “That’s an interesting point, but I think…” help maintain a balanced and productive discussion. Students also learn how to start and end meetings naturally, with expressions like “Let’s move to the next point.” and “Thank you for your time.”', 'https://youtu.be/W97woRZKARs?si=3RpyZ_u1-M422LJJ'),
+(6, 'Meetings and Collaboration', 'How to participate in meetings in English', 
+'Participating in meetings in English requires clarity, active listening, and proper vocabulary. In this lesson, students learn expressions for agreeing, disagreeing, and presenting ideas politely. Phrases like “I agree with you.” and “That’s an interesting point, but I think…” help maintain a balanced and productive discussion. Students also learn how to start and end meetings naturally, with expressions like “Let’s move to the next point.” and “Thank you for your time.”', 'https://youtu.be/W97woRZKARs?si=3RpyZ_u1-M422LJJ'),
 
-(6, 'Customer Service Skills', 'How to assist customers in English', 'Handling customers in English is essential for businesses that deal with international clients. In this lesson, students learn practical phrases for greeting, offering help, and solving problems politely. Expressions like “How can I help you today?” and “I’m sorry for the inconvenience. Let me check that for you.” show empathy and professionalism. The focus is on clear, polite, and efficient communication that improves customer satisfaction.', 'https://youtu.be/LRJXMKZ4wOw?si=LS7csE1OmdeG7CWU'),
+(6, 'Customer Service Skills', 'How to assist customers in English', 
+'Handling customers in English is essential for businesses that deal with international clients. In this lesson, students learn practical phrases for greeting, offering help, and solving problems politely. Expressions like “How can I help you today?” and “I’m sorry for the inconvenience. Let me check that for you.” show empathy and professionalism. The focus is on clear, polite, and efficient communication that improves customer satisfaction.', 'https://youtu.be/LRJXMKZ4wOw?si=LS7csE1OmdeG7CWU'),
 
-(6, 'Professional Presentations', 'How to make presentations in English', 'Speaking in public—especially in another language—can be challenging. This lesson teaches students how to structure a presentation in English with an introduction, development, and conclusion. Students learn useful phrases like “Good morning, everyone. Today I’m going to talk about our new project.” and closing expressions like “To sum up, these are the main points of our plan.” This lesson helps students organize ideas and present with confidence.', 'https://youtu.be/fzIxD1jXn44?si=beD9q89MbqgCjUbU'),
+(6, 'Professional Presentations', 'How to make presentations in English', 
+'Speaking in public—especially in another language—can be challenging. This lesson teaches students how to structure a presentation in English with an introduction, development, and conclusion. Students learn useful phrases like “Good morning, everyone. Today I’m going to talk about our new project.” and closing expressions like “To sum up, these are the main points of our plan.” This lesson helps students organize ideas and present with confidence.', 'https://youtu.be/fzIxD1jXn44?si=beD9q89MbqgCjUbU'),
 
-(6, 'Telephone Communication', 'Answering and making calls with confidence', 'Answering phone calls in English requires attention and practice. In this lesson, students learn how to start conversations, transfer calls, and take messages clearly and politely. Useful expressions include “Good morning, Marketing Department. How can I help you?” and “Can I take a message?” Students also learn how to ask for repetition or clarification to avoid misunderstandings.', 'https://youtu.be/j26_A7crDrA?si=FX9eOEaHTF-EmPq2'),
+(6, 'Telephone Communication', 'Answering and making calls with confidence', 
+'Answering phone calls in English requires attention and practice. In this lesson, students learn how to start conversations, transfer calls, and take messages clearly and politely. Useful expressions include “Good morning, Marketing Department. How can I help you?” and “Can I take a message?” Students also learn how to ask for repetition or clarification to avoid misunderstandings.', 'https://youtu.be/j26_A7crDrA?si=FX9eOEaHTF-EmPq2'),
 
-(6, 'Everyday Work Expressions', 'Common daily expressions used in the workplace', 'In daily corporate life, there are many informal and useful expressions that make communication more natural. In this lesson, students learn phrases like “Let’s get started!”, “That’s a great idea!”, and “I’ll follow up with you tomorrow.” These expressions are useful in meetings, conversations with colleagues, and quick exchanges, helping students build fluency and spontaneity.', 'lesson8.jpg'),
+(6, 'Everyday Work Expressions', 'Common daily expressions used in the workplace', 
+'In daily corporate life, there are many informal and useful expressions that make communication more natural. In this lesson, students learn phrases like “Let’s get started!”, “That’s a great idea!”, and “I’ll follow up with you tomorrow.” These expressions are useful in meetings, conversations with colleagues, and quick exchanges, helping students build fluency and spontaneity.', 'lesson8.jpg'),
 
-(6, 'Feedback and Evaluation', 'How to give and receive feedback in English', 'Giving and receiving feedback is essential for professional growth. In this lesson, students learn expressions to offer constructive comments and respond politely and openly. Phrases like “I really appreciate your feedback.” and “Next time, I’ll try to improve this part.” show maturity and willingness to improve. The lesson reinforces the importance of maintaining a positive tone, even when addressing areas for improvement.', 'lesson9.jpg'),
+(6, 'Feedback and Evaluation', 'How to give and receive feedback in English', 
+'Giving and receiving feedback is essential for professional growth. In this lesson, students learn expressions to offer constructive comments and respond politely and openly. Phrases like “I really appreciate your feedback.” and “Next time, I’ll try to improve this part.” show maturity and willingness to improve. The lesson reinforces the importance of maintaining a positive tone, even when addressing areas for improvement.', 'lesson9.jpg'),
 
-(6, 'Cross-Cultural Communication', 'How to communicate effectively with people from different cultures', 'Understanding cultural differences is essential in global workplaces. In this lesson, students learn how to adapt their communication style, avoid misunderstandings, and show respect for diverse perspectives. Expressions like “Could you please clarify what you mean?” and “In my culture, we usually do it this way.” help create clearer and more inclusive interactions. The lesson focuses on building cultural awareness, empathy, and professional rapport in multinational environments.', 'lesson11.jpg'),
+(6, 'Cross-Cultural Communication', 'How to communicate effectively with people from different cultures', 
+'Understanding cultural differences is essential in global workplaces. In this lesson, students learn how to adapt their communication style, avoid misunderstandings, and show respect for diverse perspectives. Expressions like “Could you please clarify what you mean?” and “In my culture, we usually do it this way.” help create clearer and more inclusive interactions. The lesson focuses on building cultural awareness, empathy, and professional rapport in multinational environments.', 'lesson11.jpg'),
 
-
-(6, 'Networking and Small Talk', 'How to socialize and build connections at work', 'Networking is an essential part of the modern corporate world. In this lesson, students learn how to start informal conversations, ask polite questions, and show genuine interest during professional events. Expressions like “It was nice meeting you. Let’s keep in touch.” and “Are you enjoying the event?” help build valuable connections and communicate naturally in social work situations.', 'lesson10.jpg');
+(6, 'Networking and Small Talk', 'How to socialize and build connections at work', 
+'Networking is an essential part of the modern corporate world. In this lesson, students learn how to start informal conversations, ask polite questions, and show genuine interest during professional events. Expressions like “It was nice meeting you. Let’s keep in touch.” and “Are you enjoying the event?” help build valuable connections and communicate naturally in social work situations.', 'lesson10.jpg');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (7, 'Introduction to Emotional Intelligence', 'Understanding the foundations of EI', 
@@ -69,7 +116,7 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 'This lesson teaches strategies to handle difficult emotions, avoid impulsive reactions, and maintain emotional balance. Students practice techniques such as breathing, reframing thoughts, and pausing before responding.', 'self_regulation.jpg'),
 
 (7, 'Empathy in Practice', 'Understanding and connecting with others', 
-'Students learn how to recognize other people’s emotions, listen actively, and respond with understanding. The lesson includes useful expressions like “I understand how you feel.” and “That sounds challenging, how can I help?”.', 'empathy.jpg'),
+'Students learn how to recognize other peoples emotions, listen actively, and respond with understanding. The lesson includes useful expressions like “I understand how you feel.” and “That sounds challenging, how can I help?”.', 'empathy.jpg'),
 
 (7, 'Effective Communication', 'Expressing emotions with clarity and respect', 
 'This lesson focuses on verbal and nonverbal communication skills that improve emotional clarity. Students learn how to express needs, set boundaries, and handle sensitive conversations using assertive language.', 'communication.jpg'),
