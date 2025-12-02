@@ -238,6 +238,38 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 'Create a personalized plan for continuous leadership growth.', '');
 
 
+INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
+(13, 'Understanding Your Creative Process', 'Your creative workflow', 
+'Identify how your creative process works and how to improve it.', ''),
+
+(13, 'Breaking Mental Blocks', 'Overcoming creative blocks', 
+'Learn techniques to break mental barriers and regain creativity.', ''),
+
+(13, 'Time Management for Creatives', 'Creative time management', 
+'Organize your time without losing your creative flow.', ''),
+
+(13, 'Tools for Improving Focus', 'Focus enhancement tools', 
+'Discover tools and strategies to improve concentration and focus.', ''),
+
+(13, 'Turning Ideas Into Action', 'Execution skills', 
+'Transform creative ideas into real, actionable projects.', ''),
+
+(13, 'Structured Brainstorming', 'Brainstorming techniques', 
+'Use structured brainstorming methods to generate innovative ideas.', ''),
+
+(13, 'Enhancing Problem-Solving', 'Creative problem-solving', 
+'Strengthen your ability to solve problems creatively.', ''),
+
+(13, 'Creative Teamwork', 'Collaborative creativity', 
+'Learn how to work creatively and productively in teams.', ''),
+
+(13, 'Building Habits for Creativity', 'Creative habits', 
+'Develop daily habits that improve your creativity long-term.', ''),
+
+(13, 'Designing a Productivity System', 'Personal productivity system', 
+'Build your own productivity system tailored to your creative style.', '');
+
+
 
 INSERT INTO enrollments (user_id, course_id) VALUES
 (6, 10),
