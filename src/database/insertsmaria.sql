@@ -57,18 +57,18 @@ VALUES
 (10, '', 'Digital Skills Accelerator: Mastering Modern Tools', 
 'A practical course that teaches essential digital tools and technologies to improve productivity and performance in the modern workplace.', 'Technology');
 
-(11, '', 'digitalstrategy.jpg', 'Digital Strategy: Building a Strong Online Presence', 
+(11, '', 'Digital Strategy: Building a Strong Online Presence', 
 'A course focused on developing digital positioning, online identity, and content strategies for a professional online presence.', 'Development'),
 
-(12, '', 'leadershipessentials.jpg', 'Leadership Essentials: Foundations of Modern Leadership', 
+(12, '', 'Leadership Essentials: Foundations of Modern Leadership', 
 'A complete leadership guide covering communication, emotional intelligence, delegation, conflict resolution, and modern leadership practices.', 'Development'),
 
-(13, '', 'creativeproductivity.jpg', 'Creative Productivity: Mastering Focus & Innovation', 'A productivity course designed to help students unlock creativity, manage time effectively, and convert ideas into meaningful results.', 'Development'),
+(13, '', 'Creative Productivity: Mastering Focus & Innovation', 'A productivity course designed to help students unlock creativity, manage time effectively, and convert ideas into meaningful results.', 'Development'),
 
-(14, '', 'smartcommunication.jpg', 'Smart Communication: Clear & Confident Expression', 
+(14, '', 'Smart Communication: Clear & Confident Expression', 
 'A course that develops clarity, confidence, and effectiveness in daily and professional communication.', 'Development'),
 
-(15, '', 'personalfinance.jpg', 'Personal Finance Basics: Building a Healthy Money Mindset', 
+(15, '', 'Personal Finance Mastery: Building Healthy Financial Habits', 
 'A practical finance course teaching budgeting, saving, managing expenses, and creating healthy financial habits.', 'Development');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
@@ -94,10 +94,10 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 'Answering phone calls in English requires attention and practice. In this lesson, students learn how to start conversations, transfer calls, and take messages clearly and politely. Useful expressions include “Good morning, Marketing Department. How can I help you?” and “Can I take a message?” Students also learn how to ask for repetition or clarification to avoid misunderstandings.', 'https://youtu.be/j26_A7crDrA?si=FX9eOEaHTF-EmPq2'),
 
 (6, 'Everyday Work Expressions', 'Common daily expressions used in the workplace', 
-'In daily corporate life, there are many informal and useful expressions that make communication more natural. In this lesson, students learn phrases like “Let’s get started!”, “That’s a great idea!”, and “I’ll follow up with you tomorrow.” These expressions are useful in meetings, conversations with colleagues, and quick exchanges, helping students build fluency and spontaneity.', 'lesson8.jpg'),
+'In daily corporate life, there are many informal and useful expressions that make communication more natural. In this lesson, students learn phrases like “Let’s get started!”, “That’s a great idea!”, and “I’ll follow up with you tomorrow.” These expressions are useful in meetings, conversations with colleagues, and quick exchanges, helping students build fluency and spontaneity.', 'https://youtu.be/-7PT61PdEss?si=hxCqbSPk5-zuI5YQ'),
 
 (6, 'Feedback and Evaluation', 'How to give and receive feedback in English', 
-'Giving and receiving feedback is essential for professional growth. In this lesson, students learn expressions to offer constructive comments and respond politely and openly. Phrases like “I really appreciate your feedback.” and “Next time, I’ll try to improve this part.” show maturity and willingness to improve. The lesson reinforces the importance of maintaining a positive tone, even when addressing areas for improvement.', 'lesson9.jpg'),
+'Giving and receiving feedback is essential for professional growth. In this lesson, students learn expressions to offer constructive comments and respond politely and openly. Phrases like “I really appreciate your feedback.” and “Next time, I’ll try to improve this part.” show maturity and willingness to improve. The lesson reinforces the importance of maintaining a positive tone, even when addressing areas for improvement.', 'https://youtu.be/_9Gr4cE4S0I?si=hF8SwxCy1tEwscNC'),
 
 (6, 'Cross-Cultural Communication', 'How to communicate effectively with people from different cultures', 
 'Understanding cultural differences is essential in global workplaces. In this lesson, students learn how to adapt their communication style, avoid misunderstandings, and show respect for diverse perspectives. Expressions like “Could you please clarify what you mean?” and “In my culture, we usually do it this way.” help create clearer and more inclusive interactions. The lesson focuses on building cultural awareness, empathy, and professional rapport in multinational environments.', 'lesson11.jpg'),
@@ -107,65 +107,65 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (7, 'Introduction to Emotional Intelligence', 'Understanding the foundations of EI', 
-'In this lesson, students are introduced to the concept of Emotional Intelligence (EI) and why it is essential in both personal and professional life. They learn the five core components: self-awareness, self-regulation, motivation, empathy, and social skills.', 'ei_intro.jpg'),
+'In this lesson, students are introduced to the concept of Emotional Intelligence (EI) and why it is essential in both personal and professional life. They learn the five core components: self-awareness, self-regulation, motivation, empathy, and social skills.', 'https://youtu.be/tbKr0EuiVjc?si=q-h9IVTiOUVeZNLg'),
 
 (7, 'Self-Awareness', 'Recognizing your emotions and reactions', 
-'Students explore how to identify their emotions and understand how feelings influence thoughts and behavior. The lesson includes reflection exercises and phrases such as “I am noticing that I feel anxious right now.” to help label emotions clearly.', 'self_awareness.jpg'),
+'Students explore how to identify their emotions and understand how feelings influence thoughts and behavior. The lesson includes reflection exercises and phrases such as “I am noticing that I feel anxious right now.” to help label emotions clearly.', 'https://youtu.be/tGdsOXZpyWE?si=N2lx0b8B0L3LvpNl'),
 
 (7, 'Self-Regulation', 'Managing emotions with clarity and balance', 
-'This lesson teaches strategies to handle difficult emotions, avoid impulsive reactions, and maintain emotional balance. Students practice techniques such as breathing, reframing thoughts, and pausing before responding.', 'self_regulation.jpg'),
+'This lesson teaches strategies to handle difficult emotions, avoid impulsive reactions, and maintain emotional balance. Students practice techniques such as breathing, reframing thoughts, and pausing before responding.', 'https://youtu.be/INGgzIO7vOY?si=Sj2X8in1RKpT5IWm'),
 
 (7, 'Empathy in Practice', 'Understanding and connecting with others', 
-'Students learn how to recognize other peoples emotions, listen actively, and respond with understanding. The lesson includes useful expressions like “I understand how you feel.” and “That sounds challenging, how can I help?”.', 'empathy.jpg'),
+'Students learn how to recognize other peoples emotions, listen actively, and respond with understanding. The lesson includes useful expressions like “I understand how you feel.” and “That sounds challenging, how can I help?”.', 'https://youtu.be/SIuwJ7kb3EA?si=40otLriy8VB6_BNx'),
 
 (7, 'Effective Communication', 'Expressing emotions with clarity and respect', 
-'This lesson focuses on verbal and nonverbal communication skills that improve emotional clarity. Students learn how to express needs, set boundaries, and handle sensitive conversations using assertive language.', 'communication.jpg'),
+'This lesson focuses on verbal and nonverbal communication skills that improve emotional clarity. Students learn how to express needs, set boundaries, and handle sensitive conversations using assertive language.', 'https://youtu.be/QGHBq5OEsBM?si=EVprpjG4dtQH-02I'),
 
 (7, 'Managing Stress and Pressure', 'Developing emotional resilience at work', 
-'Students explore how stress affects the body and mind, and learn techniques to stay calm in high-pressure situations. The lesson includes grounding practices, guided breathing, and practical workplace examples.', 'stress_management.jpg'),
+'Students explore how stress affects the body and mind, and learn techniques to stay calm in high-pressure situations. The lesson includes grounding practices, guided breathing, and practical workplace examples.', 'https://youtu.be/15GaKTP0gFE?si=cp3ErVG0pkh59S-O'),
 
 (7, 'Conflict Resolution', 'Handling disagreements with emotional intelligence', 
-'This lesson teaches how to address conflicts respectfully while maintaining emotional control. Students learn phrases like “Let’s try to find a solution together.” and techniques for staying calm and objective during disagreements.', 'conflict_resolution.jpg'),
+'This lesson teaches how to address conflicts respectfully while maintaining emotional control. Students learn phrases like “Let’s try to find a solution together.” and techniques for staying calm and objective during disagreements.', 'https://youtu.be/gu8gSuF_lvw?si=ZM5GEh6ZRqETpXLQ'),
 
 (7, 'Building Healthy Relationships', 'Strengthening personal and professional connections', 
-'Students discover how emotional intelligence enhances teamwork, trust, and collaboration. The lesson covers active listening, appreciation statements, and maintaining supportive interactions.', 'relationships.jpg'),
+'Students discover how emotional intelligence enhances teamwork, trust, and collaboration. The lesson covers active listening, appreciation statements, and maintaining supportive interactions.', 'https://youtu.be/ELLaMPiPqPM?si=-lZBmymacWPI7b-_'),
 
 (7, 'Emotional Clarity in Decision-Making', 'Making thoughtful and balanced choices', 
-'This lesson explores how emotions influence decision-making. Students learn methods to separate emotion from impulse, evaluate options clearly, and make decisions that align with long-term goals.', 'decision_making.jpg'),
+'This lesson explores how emotions influence decision-making. Students learn methods to separate emotion from impulse, evaluate options clearly, and make decisions that align with long-term goals.', 'https://youtu.be/3-ahNeWAGvE?si=yws4ZJmXOQK9NHUV'),
 
 (7, 'Personal Growth and EI Development', 'Creating a long-term emotional intelligence plan', 
-'In the final lesson, students reflect on their progress and create a personal plan to continue improving emotional intelligence. Activities include goal-setting, journaling, and daily emotional check-ins.', 'ei_growth.jpg');
+'In the final lesson, students reflect on their progress and create a personal plan to continue improving emotional intelligence. Activities include goal-setting, journaling, and daily emotional check-ins.', 'https://youtu.be/A2arUdwea-w?si=fLADa0wUAut1iXyi');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (8, 'Introduction to Creative Thinking', 'Understanding how creativity works',
-'In this lesson, students explore what creativity really means and how it can be developed. They learn the difference between divergent and convergent thinking, and how creative ideas emerge from curiosity and experimentation.', 'creative_intro.jpg'),
+'In this lesson, students explore what creativity really means and how it can be developed. They learn the difference between divergent and convergent thinking, and how creative ideas emerge from curiosity and experimentation.', 'https://youtu.be/Kr8zRjWgxBo?si=qJIkNui5-NN_tA0T'),
 
 (8, 'Breaking Mental Barriers', 'Overcoming blocks and limiting beliefs',
-'Students learn how to identify limiting beliefs that restrict innovation and how to replace them with empowering thoughts. The lesson includes mindset-shifting techniques and reflective exercises to unlock new perspectives.', 'mental_barriers.jpg'),
+'Students learn how to identify limiting beliefs that restrict innovation and how to replace them with empowering thoughts. The lesson includes mindset-shifting techniques and reflective exercises to unlock new perspectives.', 'https://youtu.be/OIzzg6B9-60?si=bIz4c_2o55CzQKEj'),
 
 (8, 'Boosting Curiosity', 'Asking better questions to spark new ideas',
-'This lesson focuses on the power of curiosity. Students practice techniques like the “Why?” chain, open-ended questioning, and perspective switching to generate original ideas and expand creative thinking.', 'curiosity.jpg'),
+'This lesson focuses on the power of curiosity. Students practice techniques like the “Why?” chain, open-ended questioning, and perspective switching to generate original ideas and expand creative thinking.', 'https://youtu.be/uY1-eXcIp3w?si=aNB5-0AYcPQM9TSN'),
 
 (8, 'Brainstorming Strategies', 'Generating ideas effectively',
-'Students learn structured brainstorming methods such as mind mapping, rapid ideation, SCAMPER, and the 6 Thinking Hats. The lesson emphasizes quantity over quality at the initial stage and encourages creative freedom.', 'brainstorming.jpg'),
+'Students learn structured brainstorming methods such as mind mapping, rapid ideation, SCAMPER, and the 6 Thinking Hats. The lesson emphasizes quantity over quality at the initial stage and encourages creative freedom.', 'https://youtu.be/FkvCBUvH6Zc?si=LBQjfL6WBeCQOwNs'),
 
 (8, 'Creative Problem-Solving', 'Innovative approaches to challenges',
-'This lesson teaches students how to view problems from multiple angles and apply creative frameworks like design thinking. They learn to empathize with users, define problems clearly, prototype, and test new solutions.', 'problem_solving.jpg'),
+'This lesson teaches students how to view problems from multiple angles and apply creative frameworks like design thinking. They learn to empathize with users, define problems clearly, prototype, and test new solutions.', 'https://youtu.be/QbxyiUG5RRI?si=RzO770ff8xUBEqWp'),
 
 (8, 'Innovation in Everyday Life', 'Applying creativity to real situations',
-'Students discover how creativity is not limited to art—it appears in daily routines, workplace challenges, and personal decisions. The lesson includes practical examples and prompts to develop creative habits.', 'everyday_creativity.jpg'),
+'Students discover how creativity is not limited to art—it appears in daily routines, workplace challenges, and personal decisions. The lesson includes practical examples and prompts to develop creative habits.', 'https://youtu.be/LcLcZ6EsX4Y?si=7WjzX7u1l1xdMgRu'),
 
 (8, 'Thinking Outside the Box', 'Developing unconventional and bold ideas',
-'This lesson encourages students to challenge assumptions, break patterns, and explore unusual solutions. Techniques include random stimulation, analogies, and “What if…?” exploration.', 'outside_the_box.jpg'),
+'This lesson encourages students to challenge assumptions, break patterns, and explore unusual solutions. Techniques include random stimulation, analogies, and “What if…?” exploration.', 'https://youtu.be/SJXleXSglFQ?si=1Hn4d4uLCkLpt9hq'),
 
 (8, 'Collaboration & Creativity', 'Creating innovative ideas as a team',
-'Students learn how teamwork enhances creativity through diversity of thought. The lesson covers brainstorming etiquette, active listening, group synergy, and how to transform team discussions into innovative outcomes.', 'collaboration.jpg'),
+'Students learn how teamwork enhances creativity through diversity of thought. The lesson covers brainstorming etiquette, active listening, group synergy, and how to transform team discussions into innovative outcomes.', 'https://youtu.be/2DmFFS0dqQc?si=bMpCI7vWd2KQVhbv'),
 
 (8, 'Creative Confidence', 'Building courage to share your ideas',
-'This lesson focuses on overcoming fear of judgment, embracing mistakes, and building confidence to share creative ideas. Students practice positive self-talk and learn how to transform failures into growth.', 'creative_confidence.jpg'),
+'This lesson focuses on overcoming fear of judgment, embracing mistakes, and building confidence to share creative ideas. Students practice positive self-talk and learn how to transform failures into growth.', 'https://youtu.be/16p9YRF0l-g?si=at-kd8sn_iBRYv6n'),
 
 (8, 'Turning Ideas into Action', 'Transforming creativity into real projects',
-'In the final lesson, students learn how to evaluate ideas, plan actionable steps, and bring creative projects to life. Topics include prioritization, prototyping, iteration, and maintaining creative discipline.', 'ideas_to_action.jpg');
+'In the final lesson, students learn how to evaluate ideas, plan actionable steps, and bring creative projects to life. Topics include prioritization, prototyping, iteration, and maintaining creative discipline.', 'https://youtu.be/5ci8kh-WxM0?si=-pzhg_CtCbqPPuqv');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (9, 'Introduction to Leadership', 'Understanding what true leadership means',
