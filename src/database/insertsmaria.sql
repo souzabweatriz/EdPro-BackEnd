@@ -169,65 +169,65 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (9, 'Introduction to Leadership', 'Understanding what true leadership means',
-'In this lesson, students explore the foundations of leadership, the difference between leading and managing, and the qualities of impactful leaders. The lesson emphasizes purpose, vision, and responsibility.', 'leadership_intro.jpg'),
+'In this lesson, students explore the foundations of leadership, the difference between leading and managing, and the qualities of impactful leaders. The lesson emphasizes purpose, vision, and responsibility.', 'https://youtu.be/nPgxhrvYGlA?si=d7Fic1RLYQmhgBKn'),
 
 (9, 'Building a Leadership Mindset', 'Developing attitudes that inspire others',
-'Students learn how mindset shapes leadership effectiveness. Topics include accountability, growth mindset, resilience, and self-motivation. Practical exercises help students reflect on their personal leadership style.', 'leadership_mindset.jpg'),
+'Students learn how mindset shapes leadership effectiveness. Topics include accountability, growth mindset, resilience, and self-motivation. Practical exercises help students reflect on their personal leadership style.', 'https://youtu.be/_52E5KCKSc8?si=cuZHudTfTBeAKbQc'),
 
 (9, 'Understanding Team Dynamics', 'How teams work and how leaders support them',
-'This lesson explains group behavior, team roles, collaboration patterns, and how leaders can create a productive and supportive team environment. Students learn how to identify strengths and weaknesses within a team.', 'team_dynamics.jpg'),
+'This lesson explains group behavior, team roles, collaboration patterns, and how leaders can create a productive and supportive team environment. Students learn how to identify strengths and weaknesses within a team.', 'https://youtu.be/FVoxjstO5A4?si=08HthYBHyFyY6K_S'),
 
 (9, 'Communication for Leaders', 'Communicating with clarity, purpose, and empathy',
-'Students explore essential communication skills for leadership, including active listening, assertiveness, and delivering clear messages. The lesson also covers tone, body language, and motivating others through communication.', 'leader_communication.jpg'),
+'Students explore essential communication skills for leadership, including active listening, assertiveness, and delivering clear messages. The lesson also covers tone, body language, and motivating others through communication.', 'https://youtu.be/vO_T6ugY2qM?si=MWlIGEDEeB4fjlee'),
 
 (9, 'Motivating and Inspiring Teams', 'Techniques to engage and energize people',
-'This lesson teaches how to inspire teams through recognition, purpose, autonomy, and trust. Students learn practical strategies to encourage ownership, promote creativity, and maintain long-term engagement.', 'team_motivation.jpg'),
+'This lesson teaches how to inspire teams through recognition, purpose, autonomy, and trust. Students learn practical strategies to encourage ownership, promote creativity, and maintain long-term engagement.', 'https://youtu.be/7uk4-2AOaw8?si=LMPZLQCkUvgNVrjD'),
 
 (9, 'Decision-Making & Strategic Thinking', 'Making smart, balanced, and purposeful decisions',
-'Students learn decision-making frameworks, risk assessment, and strategic thinking skills. The lesson focuses on evaluating options, forecasting consequences, and aligning decisions with team goals and values.', 'decision_making.jpg'),
+'Students learn decision-making frameworks, risk assessment, and strategic thinking skills. The lesson focuses on evaluating options, forecasting consequences, and aligning decisions with team goals and values.', 'https://youtu.be/AkgsYA-LYxo?si=OLelKBkfL_i7frIU'),
 
 (9, 'Conflict Management', 'Handling disagreements with respect and effectiveness',
-'This lesson teaches leaders how to approach conflict constructively. Students learn techniques such as mediation, reframing, and solution-focused dialogue. The objective is to transform conflict into growth opportunities.', 'conflict_management.jpg'),
+'This lesson teaches leaders how to approach conflict constructively. Students learn techniques such as mediation, reframing, and solution-focused dialogue. The objective is to transform conflict into growth opportunities.', 'https://youtu.be/KY5TWVz5ZDU?si=T1vIFUxxXP5uiaVH'),
 
 (9, 'Giving and Receiving Feedback', 'Improving performance through constructive dialogue',
-'Students learn how to deliver feedback clearly and respectfully while maintaining motivation. The lesson also covers receiving feedback with openness and using it for continuous improvement.', 'feedback_leadership.jpg'),
+'Students learn how to deliver feedback clearly and respectfully while maintaining motivation. The lesson also covers receiving feedback with openness and using it for continuous improvement.', 'https://youtu.be/sPWRjjj2iok?si=ZE6MbVHwJBI4mfwY'),
 
 (9, 'Ethical and Purpose-Driven Leadership', 'Leading with values, integrity, and vision',
-'This lesson focuses on ethical decision-making, integrity, transparency, and alignment with core values. Students learn how purpose-driven leadership inspires trust and builds strong organizational cultures.', 'ethical_leadership.jpg'),
+'This lesson focuses on ethical decision-making, integrity, transparency, and alignment with core values. Students learn how purpose-driven leadership inspires trust and builds strong organizational cultures.', 'https://youtu.be/NQN4mtTagL0?si=_dp-1kiTLj9g7FN8'),
 
 (9, 'Leading High-Performance Teams', 'Creating, guiding, and sustaining successful teams',
-'In the final lesson, students learn how to structure high-performance teams, set ambitious goals, track progress, and celebrate achievements. The focus is on long-term leadership growth and team excellence.', 'high_performance.jpg');
+'In the final lesson, students learn how to structure high-performance teams, set ambitious goals, track progress, and celebrate achievements. The focus is on long-term leadership growth and team excellence.', 'https://youtu.be/-ed7hNj8qOY?si=QudNU_Gw_dpE1u6P');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (10, 'Introduction to Digital Skills', 'Understanding essential digital competencies',
-'In this lesson, students explore the importance of digital literacy in the modern workplace. They learn about key tools, platforms, and the role of technology in improving productivity and communication.', 'digital_intro.jpg'),
+'In this lesson, students explore the importance of digital literacy in the modern workplace. They learn about key tools, platforms, and the role of technology in improving productivity and communication.', 'https://youtu.be/edCSAINyDYQ?si=ESZUwEwPgfIal7PJ'),
 
 (10, 'Productivity Tools', 'Mastering tools that improve efficiency',
-'Students learn how to use essential productivity tools such as calendars, task managers, and digital planners. The lesson covers best practices for organizing schedules, deadlines, and daily workflow.', 'productivity_tools.jpg'),
+'Students learn how to use essential productivity tools such as calendars, task managers, and digital planners. The lesson covers best practices for organizing schedules, deadlines, and daily workflow.', 'https://youtu.be/LXYjFsuVOoc?si=Yz7jdrweGgOmwrlO'),
 
 (10, 'Cloud Storage and Collaboration', 'Working effectively with cloud-based platforms',
-'This lesson introduces cloud tools like Google Drive, OneDrive, and Dropbox. Students learn how to upload, share, and collaborate on documents in real time, improving teamwork and accessibility.', 'cloud_collaboration.jpg'),
+'This lesson introduces cloud tools like Google Drive, OneDrive, and Dropbox. Students learn how to upload, share, and collaborate on documents in real time, improving teamwork and accessibility.', 'https://youtu.be/RzfzI5B2LUM?si=Qev3NuKp2MB_kHon'),
 
 (10, 'Digital Communication Tools', 'Using modern communication platforms',
-'Students explore tools such as Slack, Microsoft Teams, and Zoom. They learn how to send messages, join virtual meetings, manage channels, and communicate professionally in digital environments.', 'digital_communication.jpg'),
+'Students explore tools such as Slack, Microsoft Teams, and Zoom. They learn how to send messages, join virtual meetings, manage channels, and communicate professionally in digital environments.', 'https://youtu.be/9qUQdvNjRZ8?si=_EXvkfQC35-NpX1o'),
 
 (10, 'Data Organization & Spreadsheets', 'Structuring and analyzing information',
-'This lesson teaches the basics of spreadsheets using tools like Excel or Google Sheets. Students learn how to create tables, apply formulas, filter data, and interpret results for decision-making.', 'spreadsheets.jpg'),
+'This lesson teaches the basics of spreadsheets using tools like Excel or Google Sheets. Students learn how to create tables, apply formulas, filter data, and interpret results for decision-making.', 'https://youtu.be/A9OuOox6Ing?si=Fb5nIC2BQVFKVOme'),
 
 (10, 'Cybersecurity Basics', 'Protecting information and staying safe online',
-'Students learn essential cybersecurity concepts, including strong passwords, two-factor authentication, phishing detection, and safe browsing practices. The lesson helps them navigate digital spaces securely.', 'cybersecurity.jpg'),
+'Students learn essential cybersecurity concepts, including strong passwords, two-factor authentication, phishing detection, and safe browsing practices. The lesson helps them navigate digital spaces securely.', 'https://youtu.be/zYLkdT731x8?si=cDv9bS38OZe5pdOu'),
 
 (10, 'Digital Project Management', 'Managing tasks and projects using online tools',
-'This lesson introduces project management platforms such as Trello, Asana, and Notion. Students learn how to create boards, assign tasks, track progress, and organize projects efficiently.', 'project_management.jpg'),
+'This lesson introduces project management platforms such as Trello, Asana, and Notion. Students learn how to create boards, assign tasks, track progress, and organize projects efficiently.', 'https://youtu.be/HEUXV3pr6To?si=Xc3mlOTmYxeSfdTY'),
 
 (10, 'Social Media for Professionals', 'Using social platforms strategically',
-'Students explore how to use LinkedIn, Instagram, and other platforms to build professional presence, share content, and communicate with audiences. The lesson highlights best practices and common mistakes.', 'social_media.jpg'),
+'Students explore how to use LinkedIn, Instagram, and other platforms to build professional presence, share content, and communicate with audiences. The lesson highlights best practices and common mistakes.', 'https://youtu.be/HjUJf5bKCpU?si=8kGkKGZ6_Mh1Jn2z'),
 
 (10, 'Automation & AI Tools', 'Using modern automation and AI to boost productivity',
-'This lesson introduces automation tools such as Zapier, as well as everyday AI assistants. Students learn how to automate tasks, streamline workflows, and use AI responsibly to enhance efficiency.', 'automation_ai.jpg'),
+'This lesson introduces automation tools such as Zapier, as well as everyday AI assistants. Students learn how to automate tasks, streamline workflows, and use AI responsibly to enhance efficiency.', 'https://youtu.be/KSOxkhWs2Ic?si=x-ksQeEuY7yLzjGH'),
 
 (10, 'Digital Problem-Solving', 'Using technology to solve real-world challenges',
-'In the final lesson, students learn how to apply digital tools creatively to solve problems. They explore troubleshooting strategies, logical thinking, and how to choose the right tool for each task.', 'digital_problem_solving.jpg');
+'In the final lesson, students learn how to apply digital tools creatively to solve problems. They explore troubleshooting strategies, logical thinking, and how to choose the right tool for each task.', 'https://youtu.be/Mv5aO4C_e_E?si=kvuwf6MFxDSgcrzq');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (11, 'Understanding Digital Positioning', 'Introduction to digital positioning',
