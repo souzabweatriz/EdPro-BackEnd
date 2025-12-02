@@ -231,97 +231,97 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (11, 'Understanding Digital Positioning', 'Introduction to digital positioning',
- 'Learn the basics of how digital positioning works and why it matters.', ''),
+ 'Learn the basics of how digital positioning works and why it matters.', 'https://youtu.be/rFq90-i1YE0?si=Zf4h4YDdat7UKOam'),
 
 (11, 'Creating a Professional Online Identity', 'Building your online identity',
- 'Develop a consistent and trustworthy online presence across all platforms.', ''),
+ 'Develop a consistent and trustworthy online presence across all platforms.', 'https://youtu.be/OHjIc4RNCig?si=66t5YVo7jVnuqyPV'),
 
 (11, 'Social Media Branding Essentials', 'Branding fundamentals', 
-'Understand key branding elements that strengthen your social media presence.', ''),
+'Understand key branding elements that strengthen your social media presence.', 'https://youtu.be/sO4te2QNsHY?si=1zHjUp_6q3IyGy3y'),
 
 (11, 'Defining Your Target Audience', 'Audience identification', 
-'Learn how to identify, study, and segment your ideal audience.', ''),
+'Learn how to identify, study, and segment your ideal audience.', 'https://youtu.be/P6rgGK7nAJ8?si=UA8PMaC43cQM_gDG'),
 
 (11, 'Crafting an Effective Content Strategy', 'Content strategy foundations', 
-'Build a strategic content plan aligned with your goals.', ''),
+'Build a strategic content plan aligned with your goals.', 'https://youtu.be/MD5-HByRxoA?si=Zo8VkDoia0p5H5Oo'),
 
 (11, 'Engaging With Online Communities', 'Community engagement', 
-'Develop strong, active relationships within online communities.', ''),
+'Develop strong, active relationships within online communities.', 'https://youtu.be/wHCpkdjxBJg?si=dpicwcQB6imayFdU'),
 
 (11, 'SEO Basics for Visibility', 'SEO fundamentals', 
-'Improve your organic visibility using simple SEO techniques.', ''),
+'Improve your organic visibility using simple SEO techniques.', 'https://youtu.be/Q_lySNxCag0?si=3c0XnoDoNREo-v1C'),
 
 (11, 'Digital Etiquette & Trust Building', 'Online professionalism', 
-'Behave professionally online and build digital trust.', ''),
+'Behave professionally online and build digital trust.', 'https://youtu.be/wz1vm0jae20?si=n_nUKWZCBsFez4d3'),
 
 (11, 'Measuring Online Performance', 'Performance metrics', 
-'Track, analyze, and understand key digital indicators.', ''),
+'Track, analyze, and understand key digital indicators.', 'https://youtu.be/Y5jr_zv2Y9M?si=HPkckf9a5aBR7i4x'),
 
 (11, 'Maintaining a Digital Presence', 'Long-term consistency', 
-'Learn how to keep a relevant and consistent digital presence.', '');
+'Learn how to keep a relevant and consistent digital presence.', 'https://youtu.be/F4WaF43nvds?si=4sdjItn0JzmTStw7');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (12, 'What Makes a Leader?', 'Leadership fundamentals', 
-'Explore the essential qualities that define effective leaders.', ''),
+'Explore the essential qualities that define effective leaders.', 'https://youtu.be/NQN4mtTagL0?si=jd9OBFv7K0H1FSaT'),
 
 (12, 'Core Leadership Styles', 'Leadership styles', 
-'Understand key leadership styles and when to apply each one.', ''),
+'Understand key leadership styles and when to apply each one.', 'https://youtu.be/vilZazhIjoc?si=y4F_CpvF5JdntIc_'),
 
 (12, 'Emotional Intelligence in Leadership', 'Emotional intelligence', 
-'Learn how emotional intelligence strengthens leadership skills.', ''),
+'Learn how emotional intelligence strengthens leadership skills.', 'https://youtu.be/-qmLoJ7-A80?si=6bVwVXA6O2qCLzVT'),
 
 (12, 'Communication That Inspires', 'Inspirational communication', 
-'Develop communication skills that motivate and inspire others.', ''),
+'Develop communication skills that motivate and inspire others.', 'https://youtu.be/y2zZISLiIB4?si=KrMJwjn7Af36qpuq'),
 
 (12, 'Delegation & Trust Building', 'Delegation skills', 
-'Learn how to delegate effectively and build trust within your team.', ''),
+'Learn how to delegate effectively and build trust within your team.', 'https://youtu.be/99IkRnmibN8?si=J4tPP5KtAZyV1H1P'),
 
 (12, 'Giving & Receiving Feedback', 'Feedback mastery', 
-'Master the art of giving and receiving productive feedback.', ''),
+'Master the art of giving and receiving productive feedback.', 'https://youtu.be/pfhntb1j7Kk?si=LsdO9d-pF8ngFS3F'),
 
 (12, 'Conflict Resolution Techniques', 'Conflict resolution', 
-'Learn techniques to resolve conflicts professionally and safely.', ''),
+'Learn techniques to resolve conflicts professionally and safely.', 'https://youtu.be/DoCi_JECwvY?si=rmnWXyvqzun-rJu2'),
 
 (12, 'Motivating Teams', 'Team motivation', 
-'Explore strategies to motivate and energize teams.', ''),
+'Explore strategies to motivate and energize teams.', 'https://youtu.be/u4ZoJKF_VuA'),
 
 (12, 'Decision-Making Under Pressure', 'Critical decision-making', 
-'Improve your ability to make decisions during high-pressure situations.', ''),
+'Improve your ability to make decisions during high-pressure situations.', 'https://youtu.be/X7j8F16eSqs?si=Z15__j9he1jRStN6'),
 
 (12, 'Building a Leadership Plan', 'Leadership development plan', 
-'Create a personalized plan for continuous leadership growth.', '');
+'Create a personalized plan for continuous leadership growth.', 'https://youtu.be/lZdzOgS5cQU');
 
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (13, 'Understanding Your Creative Process', 'Your creative workflow', 
-'Identify how your creative process works and how to improve it.', ''),
+'Identify how your creative process works and how to improve it.', 'https://youtu.be/nAx4WwFUTss'),
 
 (13, 'Breaking Mental Blocks', 'Overcoming creative blocks', 
-'Learn techniques to break mental barriers and regain creativity.', ''),
+'Learn techniques to break mental barriers and regain creativity.', 'https://youtu.be/wr714Qts8Vc'),
 
 (13, 'Time Management for Creatives', 'Creative time management', 
-'Organize your time without losing your creative flow.', ''),
+'Organize your time without losing your creative flow.', 'https://youtu.be/wr714Qts8Vc'),
 
 (13, 'Tools for Improving Focus', 'Focus enhancement tools', 
-'Discover tools and strategies to improve concentration and focus.', ''),
+'Discover tools and strategies to improve concentration and focus.', 'https://youtu.be/9cv6tGGLFUo'),
 
 (13, 'Turning Ideas Into Action', 'Execution skills', 
-'Transform creative ideas into real, actionable projects.', ''),
+'Transform creative ideas into real, actionable projects.', 'https://youtu.be/5VYetV6J_6I'),
 
 (13, 'Structured Brainstorming', 'Brainstorming techniques', 
-'Use structured brainstorming methods to generate innovative ideas.', ''),
+'Use structured brainstorming methods to generate innovative ideas.', 'https://youtu.be/5VBodEnZzzQ'),
 
 (13, 'Enhancing Problem-Solving', 'Creative problem-solving', 
-'Strengthen your ability to solve problems creatively.', ''),
+'Strengthen your ability to solve problems creatively.', 'https://youtu.be/hiqoCvPs_Jc'),
 
 (13, 'Creative Teamwork', 'Collaborative creativity', 
-'Learn how to work creatively and productively in teams.', ''),
+'Learn how to work creatively and productively in teams.', 'https://youtu.be/fUXdrl9ch_Q?si=UILLyCj3rDvOtlGR'),
 
 (13, 'Building Habits for Creativity', 'Creative habits', 
-'Develop daily habits that improve your creativity long-term.', ''),
+'Develop daily habits that improve your creativity long-term.', 'https://youtu.be/JmQPNJhw5kQ?si=7b95a_DwfY3kT8Rj'),
 
 (13, 'Designing a Productivity System', 'Personal productivity system', 
-'Build your own productivity system tailored to your creative style.', '');
+'Build your own productivity system tailored to your creative style.', 'https://youtu.be/UhdowFCwuGo?si=1D6qV2sev-HvjXjU');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (14, 'Introduction to Productivity Tools', 'Modern work essentials', 
