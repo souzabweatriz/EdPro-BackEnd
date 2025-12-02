@@ -325,66 +325,65 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (14, 'Introduction to Productivity Tools', 'Modern work essentials', 
-'Overview of the main digital tools used in productive workflows.', ''),
+'Overview of the main digital tools used in productive workflows.', 'https://youtu.be/lFZ_4gbLSpE?si=dDv3afZSnFqcJrLD'),
 
 (14, 'Task Management', 'Organizing your work', 
-'Using digital apps to manage tasks, deadlines, and routines.', ''),
+'Using digital apps to manage tasks, deadlines, and routines.', 'https://youtu.be/PBkc13-bw_w?si=PPlrBCkMilLdIJXP'),
 
 (14, 'Cloud Collaboration', 'Working from anywhere', 
-'How cloud platforms help teams collaborate in real time.', ''),
+'How cloud platforms help teams collaborate in real time.', 'https://youtu.be/A3L-OXl_YkQ?si=OpJcPhF5Co9iJnUv'),
 
 (14, 'Time Optimization', 'Doing more in less time', 
-'Techniques such as Pomodoro and time blocking.', ''),
+'Techniques such as Pomodoro and time blocking.', 'https://youtu.be/iDbdXTMnOmE?si=1NA9MkBYJfSFjEy8'),
 
 (14, 'Digital Note-Taking', 'Save everything clearly', 
-'Best practices for keeping organized digital notes.', ''),
+'Best practices for keeping organized digital notes.', 'https://youtu.be/QWhaSxZa5pU?si=rrKf_xpQHdXIZx_S'),
 
 (14, 'Automation Basics', 'Let technology work for you', 
-'Using automation to simplify repetitive tasks.', ''),
+'Using automation to simplify repetitive tasks.', 'https://youtu.be/9cDG3EzpxeA?si=IiMwBlccEx33lMg6'),
 
 (14, 'Email Management', 'Controlling your inbox', 
-'Strategies to avoid overload and communicate effectively.', ''),
+'Strategies to avoid overload and communicate effectively.', 'https://youtu.be/8hWGpaHcuTw?si=4xH-Umwhpff-hdiV'),
 
 (14, 'Focus & Distraction Control', 'Staying on track', 
-'Digital habits to reduce distractions and improve focus.', ''),
+'Digital habits to reduce distractions and improve focus.', 'https://youtu.be/zgsd6NSv_20?si=7TCauFr2X2LqhZ5j'),
 
 (14, 'Remote Work Skills', 'Hybrid productivity', 
-'How to stay productive in remote and hybrid environments.', ''),
+'How to stay productive in remote and hybrid environments.', 'https://youtu.be/z2pP8dC0yGg?si=yV4bJ2Ck1DwXHAuM'),
 
 (14, 'Long-Term Productivity Systems', 'Consistency is key', 
-'Building a sustainable personal productivity system.', '');
+'Building a sustainable personal productivity system.', 'https://youtu.be/T4dser6ssp0?si=WuJt10IBbQ40GvTH');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (15, 'Understanding Soft Skills', 'Why they matter', 
-'Introduction to soft skills and how they influence professional success.', ''),
+'Introduction to soft skills and how they influence professional success.', 'https://youtu.be/edcX5v9UKSY?si=uq5ipDNI4zgkXTme'),
 
 (15, 'Effective Communication', 'Speak with clarity', 
-'How to express ideas clearly and professionally.', ''),
+'How to express ideas clearly and professionally.', 'https://youtu.be/2Yw6dFQBklA?si=QlLYxKByuapr2x0f'),
 
 (15, 'Teamwork Essentials', 'Working well with others', 
-'Collaboration strategies for harmonious teamwork.', ''),
+'Collaboration strategies for harmonious teamwork.', 'https://youtu.be/AZHBmSvcMuk?si=B1aOp6l-rI3nDE3h'),
 
 (15, 'Problem-Solving', 'Thinking with purpose', 
-'Approaches to solve problems using critical thinking.', ''),
+'Approaches to solve problems using critical thinking.', 'https://youtu.be/fypkPgeQxBQ?si=EChZ7afd-s7P6i1l'),
 
 (15, 'Adaptability', 'Flexibility in the workplace', 
-'How to adapt to new environments, tasks, and challenges.', ''),
+'How to adapt to new environments, tasks, and challenges.', 'https://youtu.be/skj-vbPsTVI?si=515YinZXI2vJV1Af'),
 
 (15, 'Professional Etiquette', 'Behavior that stands out', 
-'Rules and expectations of professional conduct.', ''),
+'Rules and expectations of professional conduct.', 'https://youtu.be/7s1woFCnKiA?si=TbS9VR8lLsa-Tpbh'),
 
 (15, 'Negotiation Basics', 'Finding win-win solutions', 
-'Skills to negotiate with confidence and fairness.', ''),
+'Skills to negotiate with confidence and fairness.', 'https://youtu.be/zin0UPm2sxE?si=g6MQ0SINzAtdrPrf'),
 
 (15, 'Public Speaking', 'Confidence on stage', 
-'Techniques to improve presentations and reduce anxiety.', ''),
+'Techniques to improve presentations and reduce anxiety.', 'https://youtu.be/bsxJVgb6Kls?si=WfuBszL85nPDqtya'),
 
 (15, 'Leadership Foundations', 'Influencing others', 
-'Core leadership behaviors even without a formal title.', ''),
+'Core leadership behaviors even without a formal title.', 'https://www.youtube.com/live/y8S2h6FeZ6s?si=Ua5DKtIocYdVQ3Vx'),
 
 (15, 'Career Development', 'Growing professionally', 
-'How to build a long-term plan for career success.', '');
-
+'How to build a long-term plan for career success.', 'https://youtu.be/SIx7wi3DqY8?si=DJbRE1QJYvx7T5O_');
  
 INSERT INTO enrollments (user_id, course_id) VALUES
 (6, 10),
