@@ -300,9 +300,36 @@ INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
 (14, 'Long-Term Productivity Systems', 'Consistency is key', 
 'Building a sustainable personal productivity system.', '');
 
+INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
+(15, 'Understanding Soft Skills', 'Why they matter', 
+'Introduction to soft skills and how they influence professional success.', ''),
 
+(15, 'Effective Communication', 'Speak with clarity', 
+'How to express ideas clearly and professionally.', ''),
 
+(15, 'Teamwork Essentials', 'Working well with others', 
+'Collaboration strategies for harmonious teamwork.', ''),
 
+(15, 'Problem-Solving', 'Thinking with purpose', 
+'Approaches to solve problems using critical thinking.', ''),
+
+(15, 'Adaptability', 'Flexibility in the workplace', 
+'How to adapt to new environments, tasks, and challenges.', ''),
+
+(15, 'Professional Etiquette', 'Behavior that stands out', 
+'Rules and expectations of professional conduct.', ''),
+
+(15, 'Negotiation Basics', 'Finding win-win solutions', 
+'Skills to negotiate with confidence and fairness.', ''),
+
+(15, 'Public Speaking', 'Confidence on stage', 
+'Techniques to improve presentations and reduce anxiety.', ''),
+
+(15, 'Leadership Foundations', 'Influencing others', 
+'Core leadership behaviors even without a formal title.', ''),
+
+(15, 'Career Development', 'Growing professionally', 
+'How to build a long-term plan for career success.', '');
 
 
 INSERT INTO enrollments (user_id, course_id) VALUES
