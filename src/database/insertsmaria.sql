@@ -42,33 +42,33 @@ INSERT INTO users (photo, full_name, username, email, phone, password, role) VAL
 
 INSERT INTO courses (owner_id, photo, title, description, category)
 VALUES
-(6, '', 'English Flow: Professional Communication', 
+(6, 'https://i.pinimg.com/736x/e2/15/00/e2150031d860b562b917fd29fde5e2bd.jpg', 'English Flow: Professional Communication', 
 'A course designed to develop clear, objective, and professional communication skills in English for corporate environments.', 'Languages'),
 
-(7, '', 'Emotion & Clarity: Emotional Intelligence in Practice', 
+(7, 'https://i.pinimg.com/736x/98/51/ee/9851eed0574edb6052f98662e3cfaac7.jpg', 'Emotion & Clarity: Emotional Intelligence in Practice', 
 'A practical course focused on developing emotional intelligence, self-awareness, and clear communication in both personal and professional life.', 'Personal Development'),
 
-(8, '', 'Creative Mindset: Unlock Your Innovative Potential', 
+(8, 'https://i.pinimg.com/736x/e6/d7/72/e6d772655cdcf17284594211bead0927.jpg', 'Creative Mindset: Unlock Your Innovative Potential', 
 'A course focused on enhancing creativity, problem-solving, and innovation through practical exercises and real-world applications.', 'Personal Development'),
 
-(9, '', 'Leadership Path: Inspiring Teams with Purpose', 
+(9, 'https://i.pinimg.com/736x/9f/dd/76/9fdd762e83ce509b001648a064e315c9.jpg', 'Leadership Path: Inspiring Teams with Purpose', 
 'A leadership course designed to help students understand team dynamics, motivation strategies, and purpose-driven management.', 'Business'),
 
-(10, '', 'Digital Skills Accelerator: Mastering Modern Tools', 
-'A practical course that teaches essential digital tools and technologies to improve productivity and performance in the modern workplace.', 'Technology');
+(10, 'https://i.pinimg.com/736x/ed/ea/01/edea018b61eec381fc29ba4492f75210.jpg', 'Digital Skills Accelerator: Mastering Modern Tools', 
+'A practical course that teaches essential digital tools and technologies to improve productivity and performance in the modern workplace.', 'Technology'),
 
-(11, '', 'Digital Strategy: Building a Strong Online Presence', 
+(11, 'https://i.pinimg.com/736x/dc/ac/ac/dcacac126581415d3e0dba717f3c8afb.jpg', 'Digital Strategy: Building a Strong Online Presence', 
 'A course focused on developing digital positioning, online identity, and content strategies for a professional online presence.', 'Development'),
 
-(12, '', 'Leadership Essentials: Foundations of Modern Leadership', 
+(12, 'https://i.pinimg.com/736x/6f/96/dd/6f96ddf119ff5623b21ab3154da115d5.jpg', 'Leadership Essentials: Foundations of Modern Leadership', 
 'A complete leadership guide covering communication, emotional intelligence, delegation, conflict resolution, and modern leadership practices.', 'Development'),
 
-(13, '', 'Creative Productivity: Mastering Focus & Innovation', 'A productivity course designed to help students unlock creativity, manage time effectively, and convert ideas into meaningful results.', 'Development'),
+(13, 'https://i.pinimg.com/736x/6b/9c/26/6b9c260f77d687f02f981b71c369713e.jpg', 'Creative Productivity: Mastering Focus & Innovation', 'A productivity course designed to help students unlock creativity, manage time effectively, and convert ideas into meaningful results.', 'Development'),
 
-(14, '', 'Smart Communication: Clear & Confident Expression', 
+(14, 'https://i.pinimg.com/736x/ae/12/23/ae122353ad6e1bba6817ec25c17f9414.jpg', 'Smart Communication: Clear & Confident Expression', 
 'A course that develops clarity, confidence, and effectiveness in daily and professional communication.', 'Development'),
 
-(15, '', 'Personal Finance Mastery: Building Healthy Financial Habits', 
+(15, 'https://i.pinimg.com/736x/ea/3d/c6/ea3dc64dc2d1c9375921ff06e3857f64.jpg', 'Personal Finance Mastery: Building Healthy Financial Habits', 
 'A practical finance course teaching budgeting, saving, managing expenses, and creating healthy financial habits.', 'Development');
 
 INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES
