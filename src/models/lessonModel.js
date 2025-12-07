@@ -12,6 +12,13 @@ const getLessonById = async (id) => {
     return result.rows[0];
 };
 
+const getLessonsByCourse = async (course_id) => {
+    const result = await pool.query(
+        `SELECT * FROM lessons WHERE course_id = $1`, [course_id]
+    );
+    return result.rows;
+};
+
 const createLesson = async (course_id, title, subtitle, content, media) => {
     const result = await pool.query(
         "INSERT INTO lessons (course_id, title, subtitle, content, media) VALUES ($1, $2, $3, $4, $5) RETURNING *",
@@ -36,4 +43,4 @@ const deleteLesson = async (id) => {
     return { message: "Lição deletada com sucesso." };
 };
 
-module.exports = { getLessons, getLessonById, createLesson, updateLesson, deleteLesson };
+module.exports = { getLessons, getLessonById, getLessonsByCourse, createLesson, updateLesson, deleteLesson };

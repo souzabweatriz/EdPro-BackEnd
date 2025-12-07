@@ -21,6 +21,18 @@ const getLessonById = async (req, res) => {
     }
 };
 
+const getLessonsByCourse = async (req, res) => {
+    try {
+        const lessons = await lessonModel.getLessonsByCourse(req.params.course_id);
+        if (!lessons || lessons.length === 0) {
+            return res.status(404).json({ message: "Lições não encontrada." });
+        }
+        res.json(lessons);
+    } catch (error) {
+        res.status(500).json({ message: "Erro ao buscar lições" });
+    }
+};
+
 const createLesson = async (req, res) => {
     try {
         const { course_id, title, subtitle, content, media } = req.body;
@@ -53,4 +65,4 @@ const deleteLesson = async (req, res) => {
     }
 };
 
-module.exports = { getAllLessons, getLessonById, createLesson, updateLesson, deleteLesson };
+module.exports = { getAllLessons, getLessonById, getLessonsByCourse,createLesson, updateLesson, deleteLesson };
